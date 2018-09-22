@@ -1,0 +1,11 @@
+*backup*
+MNIST_data
+logs
+external
+checkpoints
+*.png
+__pycache__
+*.npy
+.archive
+.ipynb_*
+*.pyc

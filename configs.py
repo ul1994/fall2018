@@ -1,0 +1,2 @@
+
+DATAPATH = '/home/ubuntu/datasets'
