@@ -9,3 +9,6 @@ __pycache__
 .archive
 .ipynb_*
 *.pyc
+*.avi
+*.png
+*.jpg

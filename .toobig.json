@@ -1,0 +1,4210 @@
+[
+    [
+        {
+            "pid": "01165",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01165_LEFT_CC_1/07-21-2016-DDSM-25263/1-ROI mask images-85832/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01165_LEFT_CC/07-20-2016-DDSM-35558/1-full mammogram images-85498/000000.dcm",
+            "sid": "01165_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00995",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00995_LEFT_CC_1/07-21-2016-DDSM-24516/1-ROI mask images-18701/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00995_LEFT_CC/07-20-2016-DDSM-23183/1-full mammogram images-32069/000000.dcm",
+            "sid": "00995_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01082",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01082_RIGHT_MLO_1/07-21-2016-DDSM-75024/1-ROI mask images-67045/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01082_RIGHT_MLO/07-20-2016-DDSM-54678/1-full mammogram images-58060/000000.dcm",
+            "sid": "01082_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00236",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00236_RIGHT_MLO_1/07-21-2016-DDSM-34053/1-ROI mask images-40466/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00236_RIGHT_MLO/07-20-2016-DDSM-53065/1-full mammogram images-84932/000000.dcm",
+            "sid": "00236_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00462",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00462_LEFT_MLO_1/07-21-2016-DDSM-91459/1-ROI mask images-25772/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00462_LEFT_MLO/07-20-2016-DDSM-62649/1-full mammogram images-30677/000000.dcm",
+            "sid": "00462_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01741",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01741_LEFT_CC_1/10-04-2016-DDSM-29454/1-ROI mask images-60313/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01741_LEFT_CC/10-04-2016-DDSM-73332/1-full mammogram images-29953/000000.dcm",
+            "sid": "01741_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00079",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00079_RIGHT_CC_1/07-21-2016-DDSM-16989/1-ROI mask images-63843/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00079_RIGHT_CC/07-20-2016-DDSM-09562/1-full mammogram images-57737/000000.dcm",
+            "sid": "00079_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00719",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00719_LEFT_CC_1/07-21-2016-DDSM-69326/1-ROI mask images-38749/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00719_LEFT_CC/07-20-2016-DDSM-18436/1-full mammogram images-72601/000000.dcm",
+            "sid": "00719_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00413",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00413_LEFT_MLO_1/07-21-2016-DDSM-68866/1-ROI mask images-01156/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00413_LEFT_MLO/07-20-2016-DDSM-89242/1-full mammogram images-07924/000000.dcm",
+            "sid": "00413_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01671",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01671_LEFT_CC_1/07-21-2016-DDSM-37268/1-ROI mask images-80243/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01671_LEFT_CC/07-20-2016-DDSM-82518/1-full mammogram images-40008/000000.dcm",
+            "sid": "01671_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00199",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00199_LEFT_MLO_1/07-21-2016-DDSM-31646/1-ROI mask images-04781/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00199_LEFT_MLO/07-20-2016-DDSM-75061/1-full mammogram images-23528/000000.dcm",
+            "sid": "00199_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01814",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01814_RIGHT_CC_1/07-21-2016-DDSM-30399/1-ROI mask images-79590/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01814_RIGHT_CC/07-20-2016-DDSM-68839/1-full mammogram images-76955/000000.dcm",
+            "sid": "01814_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01502",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Test_P_01502_LEFT_MLO_2/08-29-2017-DDSM-14691/1-ROI mask images-32823/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01502_LEFT_MLO_1/10-04-2016-DDSM-11530/1-ROI mask images-46386/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01502_LEFT_MLO/10-04-2016-DDSM-19089/1-full mammogram images-31137/000000.dcm",
+            "sid": "01502_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00528",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00528_RIGHT_CC_1/07-21-2016-DDSM-65576/1-ROI mask images-14019/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00528_RIGHT_CC/07-20-2016-DDSM-30455/1-full mammogram images-56383/000000.dcm",
+            "sid": "00528_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01158",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01158_RIGHT_CC_1/07-21-2016-DDSM-90297/1-ROI mask images-30594/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01158_RIGHT_CC/07-20-2016-DDSM-50747/1-full mammogram images-04671/000000.dcm",
+            "sid": "01158_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01447",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01447_RIGHT_CC_1/07-21-2016-DDSM-49024/1-ROI mask images-85063/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01447_RIGHT_CC/07-20-2016-DDSM-73986/1-full mammogram images-56072/000000.dcm",
+            "sid": "01447_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01270",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01270_RIGHT_MLO_1/07-21-2016-DDSM-32427/1-ROI mask images-23417/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01270_RIGHT_MLO_2/07-21-2016-DDSM-81497/1-ROI mask images-87792/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01270_RIGHT_MLO/07-20-2016-DDSM-37923/1-full mammogram images-60895/000000.dcm",
+            "sid": "01270_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01270",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01270_RIGHT_MLO_1/07-21-2016-DDSM-32427/1-ROI mask images-23417/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01270_RIGHT_MLO_2/07-21-2016-DDSM-81497/1-ROI mask images-87792/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01270_RIGHT_MLO/07-20-2016-DDSM-37923/1-full mammogram images-60895/000000.dcm",
+            "sid": "01270_RIGHT_MLO"
+        },
+        1
+    ],
+    [
+        {
+            "pid": "00079",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00079_RIGHT_MLO_1/07-21-2016-DDSM-63656/1-ROI mask images-74327/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00079_RIGHT_MLO/07-20-2016-DDSM-78405/1-full mammogram images-85091/000000.dcm",
+            "sid": "00079_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01225",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01225_RIGHT_CC_1/07-21-2016-DDSM-19838/1-ROI mask images-19590/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01225_RIGHT_CC/07-20-2016-DDSM-31728/1-full mammogram images-36956/000000.dcm",
+            "sid": "01225_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00732",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00732_LEFT_MLO_1/07-21-2016-DDSM-19150/1-ROI mask images-35657/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00732_LEFT_MLO/07-20-2016-DDSM-80463/1-full mammogram images-18263/000000.dcm",
+            "sid": "00732_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00462",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00462_LEFT_CC_1/07-21-2016-DDSM-53357/1-ROI mask images-96022/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00462_LEFT_CC/07-20-2016-DDSM-13455/1-full mammogram images-14204/000000.dcm",
+            "sid": "00462_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00598",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00598_LEFT_CC_1/10-04-2016-DDSM-54235/1-ROI mask images-47170/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00598_LEFT_CC/10-04-2016-DDSM-43480/1-full mammogram images-02823/000000.dcm",
+            "sid": "00598_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01201",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01201_LEFT_MLO_1/07-21-2016-DDSM-34065/1-ROI mask images-44636/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01201_LEFT_MLO/07-20-2016-DDSM-46658/1-full mammogram images-67771/000000.dcm",
+            "sid": "01201_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01165",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01165_LEFT_MLO_1/07-21-2016-DDSM-47533/1-ROI mask images-54070/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01165_LEFT_MLO/07-20-2016-DDSM-76614/1-full mammogram images-34165/000000.dcm",
+            "sid": "01165_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01668",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01668_LEFT_MLO_1/07-21-2016-DDSM-66681/1-ROI mask images-91335/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01668_LEFT_MLO/07-20-2016-DDSM-13767/1-full mammogram images-81128/000000.dcm",
+            "sid": "01668_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01600",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01600_RIGHT_MLO_2/07-21-2016-DDSM-37552/1-ROI mask images-29165/000000.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01600_RIGHT_MLO_1/07-21-2016-DDSM-84032/1-ROI mask images-70422/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01600_RIGHT_MLO/07-20-2016-DDSM-58009/1-full mammogram images-84813/000000.dcm",
+            "sid": "01600_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01600",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01600_RIGHT_MLO_2/07-21-2016-DDSM-37552/1-ROI mask images-29165/000000.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01600_RIGHT_MLO_1/07-21-2016-DDSM-84032/1-ROI mask images-70422/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01600_RIGHT_MLO/07-20-2016-DDSM-58009/1-full mammogram images-84813/000000.dcm",
+            "sid": "01600_RIGHT_MLO"
+        },
+        1
+    ],
+    [
+        {
+            "pid": "00055",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00055_LEFT_CC_1/07-21-2016-DDSM-88382/1-ROI mask images-35484/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00055_LEFT_CC/07-20-2016-DDSM-27880/1-full mammogram images-15856/000000.dcm",
+            "sid": "00055_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01481",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01481_RIGHT_MLO_1/07-21-2016-DDSM-81699/1-ROI mask images-85971/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01481_RIGHT_MLO/07-20-2016-DDSM-65942/1-full mammogram images-60321/000000.dcm",
+            "sid": "01481_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01406",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01406_LEFT_MLO_1/07-21-2016-DDSM-53750/1-ROI mask images-28685/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01406_LEFT_MLO/07-20-2016-DDSM-69534/1-full mammogram images-58930/000000.dcm",
+            "sid": "01406_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01189",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01189_LEFT_MLO_1/07-21-2016-DDSM-12119/1-ROI mask images-80687/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01189_LEFT_MLO/07-20-2016-DDSM-91927/1-full mammogram images-95243/000000.dcm",
+            "sid": "01189_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00629",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00629_RIGHT_CC_1/10-04-2016-DDSM-62191/1-ROI mask images-30860/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00629_RIGHT_CC/10-04-2016-DDSM-87356/1-full mammogram images-01075/000000.dcm",
+            "sid": "00629_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00314",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00314_RIGHT_MLO_1/07-21-2016-DDSM-97298/1-ROI mask images-54285/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00314_RIGHT_MLO/07-20-2016-DDSM-76001/1-full mammogram images-37826/000000.dcm",
+            "sid": "00314_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01494",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01494_LEFT_MLO_2/07-21-2016-DDSM-22977/1-ROI mask images-84553/000000.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01494_LEFT_MLO_1/07-21-2016-DDSM-89097/1-ROI mask images-00638/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01494_LEFT_MLO/07-20-2016-DDSM-87052/1-full mammogram images-54678/000000.dcm",
+            "sid": "01494_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00903",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00903_LEFT_MLO_1/07-21-2016-DDSM-34488/1-ROI mask images-89415/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00903_LEFT_MLO/07-20-2016-DDSM-43419/1-full mammogram images-66055/000000.dcm",
+            "sid": "00903_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00990",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00990_RIGHT_CC_1/07-21-2016-DDSM-39016/1-ROI mask images-45482/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00990_RIGHT_CC/07-20-2016-DDSM-46988/1-full mammogram images-30362/000000.dcm",
+            "sid": "00990_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00484",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00484_RIGHT_CC_1/07-21-2016-DDSM-04050/1-ROI mask images-16361/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00484_RIGHT_CC/07-20-2016-DDSM-89635/1-full mammogram images-84519/000000.dcm",
+            "sid": "00484_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01613",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01613_LEFT_MLO_1/07-21-2016-DDSM-85763/1-ROI mask images-35227/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01613_LEFT_MLO/07-20-2016-DDSM-12001/1-full mammogram images-64377/000000.dcm",
+            "sid": "01613_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00947",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00947_RIGHT_MLO_1/10-04-2016-DDSM-34137/1-ROI mask images-68829/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00947_RIGHT_MLO/10-04-2016-DDSM-87399/1-full mammogram images-61351/000000.dcm",
+            "sid": "00947_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01207",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01207_RIGHT_MLO_1/07-21-2016-DDSM-87450/1-ROI mask images-20656/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01207_RIGHT_MLO/07-20-2016-DDSM-32071/1-full mammogram images-31101/000000.dcm",
+            "sid": "01207_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00515",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00515_RIGHT_CC_1/07-21-2016-DDSM-53502/1-ROI mask images-44837/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00515_RIGHT_CC/07-20-2016-DDSM-48774/1-full mammogram images-19820/000000.dcm",
+            "sid": "00515_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01669",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01669_LEFT_MLO_1/07-21-2016-DDSM-01349/1-ROI mask images-88814/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01669_LEFT_MLO/07-20-2016-DDSM-14752/1-full mammogram images-57568/000000.dcm",
+            "sid": "01669_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01270",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01270_RIGHT_CC_1/07-21-2016-DDSM-24508/1-ROI mask images-27751/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01270_RIGHT_CC/07-20-2016-DDSM-24032/1-full mammogram images-60543/000000.dcm",
+            "sid": "01270_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00412",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00412_RIGHT_CC_1/07-21-2016-DDSM-62080/1-ROI mask images-62148/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00412_RIGHT_CC/07-20-2016-DDSM-86823/1-full mammogram images-59546/000000.dcm",
+            "sid": "00412_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00406",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00406_RIGHT_MLO_1/07-21-2016-DDSM-33548/1-ROI mask images-68301/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00406_RIGHT_MLO/07-20-2016-DDSM-31914/1-full mammogram images-02216/000000.dcm",
+            "sid": "00406_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00849",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00849_LEFT_MLO_1/07-21-2016-DDSM-41006/1-ROI mask images-29342/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00849_LEFT_MLO/07-20-2016-DDSM-99599/1-full mammogram images-18979/000000.dcm",
+            "sid": "00849_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01529",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01529_RIGHT_MLO_1/07-21-2016-DDSM-66072/1-ROI mask images-43339/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01529_RIGHT_MLO/07-20-2016-DDSM-64295/1-full mammogram images-07277/000000.dcm",
+            "sid": "01529_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01685",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01685_RIGHT_CC_1/07-21-2016-DDSM-30936/1-ROI mask images-04312/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01685_RIGHT_CC/07-20-2016-DDSM-47644/1-full mammogram images-33059/000000.dcm",
+            "sid": "01685_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01000",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01000_RIGHT_CC_1/07-21-2016-DDSM-62115/1-ROI mask images-08216/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01000_RIGHT_CC/07-20-2016-DDSM-72283/1-full mammogram images-48235/000000.dcm",
+            "sid": "01000_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00698",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00698_RIGHT_CC_1/07-21-2016-DDSM-59673/1-ROI mask images-11208/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00698_RIGHT_CC/07-20-2016-DDSM-51300/1-full mammogram images-38842/000000.dcm",
+            "sid": "00698_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00226",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00226_LEFT_MLO_1/07-21-2016-DDSM-52123/1-ROI mask images-98456/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00226_LEFT_MLO/07-20-2016-DDSM-72224/1-full mammogram images-20920/000000.dcm",
+            "sid": "00226_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01617",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01617_LEFT_MLO_1/10-04-2016-DDSM-00624/1-ROI mask images-95352/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01617_LEFT_MLO/10-04-2016-DDSM-23651/1-full mammogram images-54490/000000.dcm",
+            "sid": "01617_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01190",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01190_LEFT_MLO_1/07-21-2016-DDSM-90069/1-ROI mask images-82706/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01190_LEFT_MLO/07-20-2016-DDSM-10845/1-full mammogram images-86817/000000.dcm",
+            "sid": "01190_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01008",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01008_RIGHT_MLO_1/07-21-2016-DDSM-89917/1-ROI mask images-97939/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01008_RIGHT_MLO/07-20-2016-DDSM-54624/1-full mammogram images-97224/000000.dcm",
+            "sid": "01008_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00116",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00116_RIGHT_MLO_1/10-04-2016-DDSM-75139/1-ROI mask images-21596/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00116_RIGHT_MLO_2/10-04-2016-DDSM-20113/1-ROI mask images-93761/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00116_RIGHT_MLO/10-04-2016-DDSM-99311/1-full mammogram images-87253/000000.dcm",
+            "sid": "00116_RIGHT_MLO"
+        },
+        1
+    ],
+    [
+        {
+            "pid": "00247",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00247_RIGHT_MLO_1/07-21-2016-DDSM-78659/1-ROI mask images-84239/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00247_RIGHT_MLO/07-20-2016-DDSM-17042/1-full mammogram images-20054/000000.dcm",
+            "sid": "00247_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00892",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00892_LEFT_MLO_1/07-21-2016-DDSM-33721/1-ROI mask images-54081/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00892_LEFT_MLO/07-20-2016-DDSM-87036/1-full mammogram images-83073/000000.dcm",
+            "sid": "00892_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00431",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00431_RIGHT_CC_1/07-21-2016-DDSM-59561/1-ROI mask images-76444/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00431_RIGHT_CC/07-20-2016-DDSM-24693/1-full mammogram images-58529/000000.dcm",
+            "sid": "00431_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00439",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00439_RIGHT_CC_1/07-21-2016-DDSM-62227/1-ROI mask images-06997/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00439_RIGHT_CC/07-20-2016-DDSM-17979/1-full mammogram images-78923/000000.dcm",
+            "sid": "00439_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00482",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00482_LEFT_MLO_1/10-04-2016-DDSM-51718/1-ROI mask images-63122/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00482_LEFT_MLO/10-04-2016-DDSM-51006/1-full mammogram images-77415/000000.dcm",
+            "sid": "00482_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01131",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01131_LEFT_MLO_1/07-21-2016-DDSM-83670/1-ROI mask images-96570/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01131_LEFT_MLO/07-20-2016-DDSM-45087/1-full mammogram images-90722/000000.dcm",
+            "sid": "01131_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01324",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01324_LEFT_CC_1/07-21-2016-DDSM-43815/1-ROI mask images-01743/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01324_LEFT_CC/07-20-2016-DDSM-74141/1-full mammogram images-86822/000000.dcm",
+            "sid": "01324_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00495",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Test_P_00495_RIGHT_CC_3/08-29-2017-DDSM-91098/1-ROI mask images-94324/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Test_P_00495_RIGHT_CC_2/08-29-2017-DDSM-57657/1-ROI mask images-96934/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00495_RIGHT_CC_1/07-21-2016-DDSM-85636/1-ROI mask images-61756/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00495_RIGHT_CC/07-20-2016-DDSM-26771/1-full mammogram images-56464/000000.dcm",
+            "sid": "00495_RIGHT_CC"
+        },
+        2
+    ],
+    [
+        {
+            "pid": "00004",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00004_LEFT_CC_1/07-21-2016-DDSM-30167/1-ROI mask images-50375/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00004_LEFT_CC/07-20-2016-DDSM-95697/1-full mammogram images-46540/000000.dcm",
+            "sid": "00004_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01356",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01356_LEFT_CC_1/07-21-2016-DDSM-02424/1-ROI mask images-22042/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01356_LEFT_CC/07-20-2016-DDSM-84758/1-full mammogram images-97462/000000.dcm",
+            "sid": "01356_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00200",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00200_RIGHT_CC_1/10-04-2016-DDSM-91781/1-ROI mask images-87879/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00200_RIGHT_CC/10-04-2016-DDSM-95196/1-full mammogram images-97042/000000.dcm",
+            "sid": "00200_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01844",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01844_RIGHT_MLO_1/07-21-2016-DDSM-18197/1-ROI mask images-88016/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01844_RIGHT_MLO/07-20-2016-DDSM-80546/1-full mammogram images-30725/000000.dcm",
+            "sid": "01844_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01775",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01775_LEFT_MLO_1/07-21-2016-DDSM-56092/1-ROI mask images-53673/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01775_LEFT_MLO/07-20-2016-DDSM-65941/1-full mammogram images-52112/000000.dcm",
+            "sid": "01775_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00568",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00568_LEFT_MLO_1/07-21-2016-DDSM-28231/1-ROI mask images-41332/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00568_LEFT_MLO/07-20-2016-DDSM-90982/1-full mammogram images-23315/000000.dcm",
+            "sid": "00568_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01076",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01076_RIGHT_CC_1/07-21-2016-DDSM-27838/1-ROI mask images-77547/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01076_RIGHT_CC/07-20-2016-DDSM-56024/1-full mammogram images-26621/000000.dcm",
+            "sid": "01076_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01138",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01138_RIGHT_CC_1/07-21-2016-DDSM-21863/1-ROI mask images-76816/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01138_RIGHT_CC/07-20-2016-DDSM-65441/1-full mammogram images-12133/000000.dcm",
+            "sid": "01138_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01559",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01559_RIGHT_MLO_1/07-21-2016-DDSM-14033/1-ROI mask images-80540/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01559_RIGHT_MLO/07-20-2016-DDSM-58267/1-full mammogram images-55763/000000.dcm",
+            "sid": "01559_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01343",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01343_LEFT_CC_2/07-21-2016-DDSM-94012/1-ROI mask images-46014/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01343_LEFT_CC_1/07-21-2016-DDSM-19152/1-ROI mask images-77924/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01343_LEFT_CC/07-20-2016-DDSM-77595/1-full mammogram images-13795/000000.dcm",
+            "sid": "01343_LEFT_CC"
+        },
+        1
+    ],
+    [
+        {
+            "pid": "01173",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01173_RIGHT_CC_1/07-21-2016-DDSM-59026/1-ROI mask images-92476/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01173_RIGHT_CC/07-20-2016-DDSM-34504/1-full mammogram images-13367/000000.dcm",
+            "sid": "01173_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01364",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01364_LEFT_MLO_1/07-21-2016-DDSM-42293/1-ROI mask images-38747/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01364_LEFT_MLO/07-20-2016-DDSM-27790/1-full mammogram images-07502/000000.dcm",
+            "sid": "01364_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00120",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00120_LEFT_MLO_1/07-21-2016-DDSM-33632/1-ROI mask images-23305/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00120_LEFT_MLO/07-20-2016-DDSM-01795/1-full mammogram images-87564/000000.dcm",
+            "sid": "00120_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01326",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01326_LEFT_CC_1/07-21-2016-DDSM-15519/1-ROI mask images-86130/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01326_LEFT_CC/07-20-2016-DDSM-64288/1-full mammogram images-43300/000000.dcm",
+            "sid": "01326_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01324",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01324_LEFT_MLO_1/07-21-2016-DDSM-16448/1-ROI mask images-32269/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01324_LEFT_MLO/07-20-2016-DDSM-86924/1-full mammogram images-79478/000000.dcm",
+            "sid": "01324_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00044",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00044_RIGHT_MLO_1/07-21-2016-DDSM-76443/1-ROI mask images-80862/000000.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00044_RIGHT_MLO_2/07-21-2016-DDSM-98278/1-ROI mask images-14207/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00044_RIGHT_MLO/07-20-2016-DDSM-02892/1-full mammogram images-63588/000000.dcm",
+            "sid": "00044_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00044",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00044_RIGHT_MLO_1/07-21-2016-DDSM-76443/1-ROI mask images-80862/000000.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00044_RIGHT_MLO_2/07-21-2016-DDSM-98278/1-ROI mask images-14207/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00044_RIGHT_MLO/07-20-2016-DDSM-02892/1-full mammogram images-63588/000000.dcm",
+            "sid": "00044_RIGHT_MLO"
+        },
+        1
+    ],
+    [
+        {
+            "pid": "00200",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00200_RIGHT_MLO_1/10-04-2016-DDSM-78073/1-ROI mask images-74367/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00200_RIGHT_MLO/10-04-2016-DDSM-91269/1-full mammogram images-40059/000000.dcm",
+            "sid": "00200_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01663",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01663_RIGHT_MLO_1/07-21-2016-DDSM-87273/1-ROI mask images-84791/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01663_RIGHT_MLO/07-20-2016-DDSM-74310/1-full mammogram images-69679/000000.dcm",
+            "sid": "01663_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00391",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00391_RIGHT_CC_1/10-04-2016-DDSM-04696/1-ROI mask images-92665/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00391_RIGHT_CC/10-04-2016-DDSM-67444/1-full mammogram images-37889/000000.dcm",
+            "sid": "00391_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01225",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01225_RIGHT_MLO_1/07-21-2016-DDSM-87508/1-ROI mask images-75099/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01225_RIGHT_MLO/07-20-2016-DDSM-32714/1-full mammogram images-73285/000000.dcm",
+            "sid": "01225_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01725",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01725_RIGHT_MLO_1/07-21-2016-DDSM-25672/1-ROI mask images-89213/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_01725_RIGHT_MLO_2/09-06-2017-DDSM-12649/1-ROI mask images-36103/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01725_RIGHT_MLO/07-20-2016-DDSM-71342/1-full mammogram images-97997/000000.dcm",
+            "sid": "01725_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00775",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00775_LEFT_CC_1/07-21-2016-DDSM-40644/1-ROI mask images-31107/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00775_LEFT_CC/07-20-2016-DDSM-18471/1-full mammogram images-56133/000000.dcm",
+            "sid": "00775_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00492",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00492_RIGHT_MLO_1/07-21-2016-DDSM-86501/1-ROI mask images-98162/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00492_RIGHT_MLO/07-20-2016-DDSM-80831/1-full mammogram images-96516/000000.dcm",
+            "sid": "00492_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00863",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00863_RIGHT_CC_1/07-21-2016-DDSM-98953/1-ROI mask images-86194/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00863_RIGHT_CC/07-20-2016-DDSM-09059/1-full mammogram images-19749/000000.dcm",
+            "sid": "00863_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01499",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01499_RIGHT_MLO_1/07-21-2016-DDSM-00795/1-ROI mask images-07862/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01499_RIGHT_MLO/07-20-2016-DDSM-09190/1-full mammogram images-04678/000000.dcm",
+            "sid": "01499_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00146",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00146_RIGHT_MLO_1/07-21-2016-DDSM-96505/1-ROI mask images-80136/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00146_RIGHT_MLO/07-20-2016-DDSM-90212/1-full mammogram images-33341/000000.dcm",
+            "sid": "00146_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00902",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00902_LEFT_CC_1/07-21-2016-DDSM-57437/1-ROI mask images-50028/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00902_LEFT_CC/07-20-2016-DDSM-99070/1-full mammogram images-12224/000000.dcm",
+            "sid": "00902_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00110",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00110_LEFT_MLO_1/07-21-2016-DDSM-29125/1-ROI mask images-14259/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00110_LEFT_MLO/07-20-2016-DDSM-14685/1-full mammogram images-56247/000000.dcm",
+            "sid": "00110_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00202",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Test_P_00202_RIGHT_MLO_2/08-29-2017-DDSM-02375/1-ROI mask images-52592/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00202_RIGHT_MLO_1/10-04-2016-DDSM-40704/1-ROI mask images-67286/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00202_RIGHT_MLO/10-04-2016-DDSM-67921/1-full mammogram images-58911/000000.dcm",
+            "sid": "00202_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00758",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00758_LEFT_CC_1/10-04-2016-DDSM-75773/1-ROI mask images-52801/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00758_LEFT_CC/10-04-2016-DDSM-96045/1-full mammogram images-87306/000000.dcm",
+            "sid": "00758_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00226",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00226_LEFT_CC_1/07-21-2016-DDSM-66019/1-ROI mask images-66221/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00226_LEFT_CC/07-20-2016-DDSM-19815/1-full mammogram images-25153/000000.dcm",
+            "sid": "00226_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00034",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_00034_RIGHT_CC_2/09-06-2017-DDSM-88964/1-ROI mask images-53990/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00034_RIGHT_CC_1/07-21-2016-DDSM-86295/1-ROI mask images-95197/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00034_RIGHT_CC/07-20-2016-DDSM-32405/1-full mammogram images-96906/000000.dcm",
+            "sid": "00034_RIGHT_CC"
+        },
+        1
+    ],
+    [
+        {
+            "pid": "00408",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00408_RIGHT_MLO_1/07-21-2016-DDSM-99768/1-ROI mask images-93741/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00408_RIGHT_MLO/07-20-2016-DDSM-13151/1-full mammogram images-33288/000000.dcm",
+            "sid": "00408_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01294",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01294_RIGHT_MLO_1/10-04-2016-DDSM-18429/1-ROI mask images-62407/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01294_RIGHT_MLO/10-04-2016-DDSM-26365/1-full mammogram images-82046/000000.dcm",
+            "sid": "01294_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01467",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_01467_RIGHT_CC_1/09-06-2017-DDSM-01290/1-ROI mask images-37383/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01467_RIGHT_CC_2/10-04-2016-DDSM-68238/1-ROI mask images-40183/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01467_RIGHT_CC/10-04-2016-DDSM-08687/1-full mammogram images-97320/000000.dcm",
+            "sid": "01467_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00797",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00797_LEFT_MLO_2/07-21-2016-DDSM-22553/1-ROI mask images-97646/000000.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00797_LEFT_MLO_1/07-21-2016-DDSM-30358/1-ROI mask images-95981/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00797_LEFT_MLO/07-20-2016-DDSM-91681/1-full mammogram images-19925/000000.dcm",
+            "sid": "00797_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00001",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00001_LEFT_CC_1/07-21-2016-DDSM-39106/1-ROI mask images-99650/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00001_LEFT_CC/07-20-2016-DDSM-74994/1-full mammogram images-24515/000000.dcm",
+            "sid": "00001_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01661",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01661_LEFT_MLO_1/10-04-2016-DDSM-21081/1-ROI mask images-97667/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01661_LEFT_MLO/10-04-2016-DDSM-41323/1-full mammogram images-39820/000000.dcm",
+            "sid": "01661_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00958",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00958_LEFT_MLO_2/07-21-2016-DDSM-38054/1-ROI mask images-81615/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00958_LEFT_MLO/07-20-2016-DDSM-43437/1-full mammogram images-24398/000000.dcm",
+            "sid": "00958_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01516",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01516_RIGHT_CC_1/07-21-2016-DDSM-80479/1-ROI mask images-06023/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01516_RIGHT_CC/07-20-2016-DDSM-96733/1-full mammogram images-76756/000000.dcm",
+            "sid": "01516_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00598",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00598_LEFT_MLO_1/10-04-2016-DDSM-24607/1-ROI mask images-39463/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00598_LEFT_MLO/10-04-2016-DDSM-99335/1-full mammogram images-35167/000000.dcm",
+            "sid": "00598_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00802",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00802_LEFT_MLO_3/07-21-2016-DDSM-52703/1-ROI mask images-16723/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00802_LEFT_MLO_1/07-21-2016-DDSM-95969/1-ROI mask images-90930/000000.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00802_LEFT_MLO_2/07-21-2016-DDSM-12484/1-ROI mask images-55011/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00802_LEFT_MLO/07-20-2016-DDSM-39837/1-full mammogram images-98402/000000.dcm",
+            "sid": "00802_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00802",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00802_LEFT_MLO_3/07-21-2016-DDSM-52703/1-ROI mask images-16723/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00802_LEFT_MLO_1/07-21-2016-DDSM-95969/1-ROI mask images-90930/000000.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00802_LEFT_MLO_2/07-21-2016-DDSM-12484/1-ROI mask images-55011/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00802_LEFT_MLO/07-20-2016-DDSM-39837/1-full mammogram images-98402/000000.dcm",
+            "sid": "00802_LEFT_MLO"
+        },
+        1
+    ],
+    [
+        {
+            "pid": "00802",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00802_LEFT_MLO_3/07-21-2016-DDSM-52703/1-ROI mask images-16723/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00802_LEFT_MLO_1/07-21-2016-DDSM-95969/1-ROI mask images-90930/000000.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00802_LEFT_MLO_2/07-21-2016-DDSM-12484/1-ROI mask images-55011/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00802_LEFT_MLO/07-20-2016-DDSM-39837/1-full mammogram images-98402/000000.dcm",
+            "sid": "00802_LEFT_MLO"
+        },
+        2
+    ],
+    [
+        {
+            "pid": "01482",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01482_RIGHT_MLO_1/07-21-2016-DDSM-85209/1-ROI mask images-47829/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01482_RIGHT_MLO/07-20-2016-DDSM-83712/1-full mammogram images-59992/000000.dcm",
+            "sid": "01482_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00464",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00464_RIGHT_CC_1/10-04-2016-DDSM-37374/1-ROI mask images-99443/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00464_RIGHT_CC/10-04-2016-DDSM-91305/1-full mammogram images-83117/000000.dcm",
+            "sid": "00464_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01231",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01231_LEFT_MLO_1/07-21-2016-DDSM-74177/1-ROI mask images-65026/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01231_LEFT_MLO/07-20-2016-DDSM-78448/1-full mammogram images-35888/000000.dcm",
+            "sid": "01231_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00586",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00586_LEFT_CC_1/07-21-2016-DDSM-64984/1-ROI mask images-07663/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00586_LEFT_CC/07-20-2016-DDSM-21139/1-full mammogram images-69350/000000.dcm",
+            "sid": "00586_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01669",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01669_LEFT_CC_1/07-21-2016-DDSM-78709/1-ROI mask images-89324/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01669_LEFT_CC/07-20-2016-DDSM-68732/1-full mammogram images-80465/000000.dcm",
+            "sid": "01669_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00568",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00568_LEFT_CC_1/07-21-2016-DDSM-19564/1-ROI mask images-46177/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00568_LEFT_CC/07-20-2016-DDSM-02853/1-full mammogram images-29622/000000.dcm",
+            "sid": "00568_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00775",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00775_LEFT_MLO_1/07-21-2016-DDSM-84672/1-ROI mask images-33370/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00775_LEFT_MLO/07-20-2016-DDSM-74775/1-full mammogram images-00377/000000.dcm",
+            "sid": "00775_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00986",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00986_LEFT_MLO_1/10-04-2016-DDSM-04932/1-ROI mask images-94442/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00986_LEFT_MLO/10-04-2016-DDSM-89020/1-full mammogram images-89853/000000.dcm",
+            "sid": "00986_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00494",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00494_RIGHT_CC_1/10-04-2016-DDSM-24153/1-ROI mask images-34585/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00494_RIGHT_CC/10-04-2016-DDSM-07830/1-full mammogram images-96192/000000.dcm",
+            "sid": "00494_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01434",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01434_LEFT_CC_1/07-21-2016-DDSM-02398/1-ROI mask images-09047/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01434_LEFT_CC/07-20-2016-DDSM-35129/1-full mammogram images-23421/000000.dcm",
+            "sid": "01434_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00361",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00361_RIGHT_MLO_1/07-21-2016-DDSM-61683/1-ROI mask images-87752/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00361_RIGHT_MLO/07-20-2016-DDSM-19261/1-full mammogram images-31927/000000.dcm",
+            "sid": "00361_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00358",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00358_RIGHT_MLO_1/10-04-2016-DDSM-12826/1-ROI mask images-92394/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00358_RIGHT_MLO/10-04-2016-DDSM-83025/1-full mammogram images-77748/000000.dcm",
+            "sid": "00358_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00569",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00569_RIGHT_CC_1/07-21-2016-DDSM-95274/1-ROI mask images-08449/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00569_RIGHT_CC/07-20-2016-DDSM-70507/1-full mammogram images-19177/000000.dcm",
+            "sid": "00569_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01343",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01343_LEFT_MLO_1/07-21-2016-DDSM-91607/1-ROI mask images-42683/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01343_LEFT_MLO_2/07-21-2016-DDSM-15596/1-ROI mask images-16403/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01343_LEFT_MLO/07-20-2016-DDSM-99302/1-full mammogram images-52239/000000.dcm",
+            "sid": "01343_LEFT_MLO"
+        },
+        1
+    ],
+    [
+        {
+            "pid": "00173",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00173_RIGHT_CC_1/10-04-2016-DDSM-82975/1-ROI mask images-37275/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00173_RIGHT_CC_2/10-04-2016-DDSM-52988/1-ROI mask images-49510/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00173_RIGHT_CC/10-04-2016-DDSM-81216/1-full mammogram images-52179/000000.dcm",
+            "sid": "00173_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00116",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00116_RIGHT_CC_2/10-04-2016-DDSM-70426/1-ROI mask images-16394/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00116_RIGHT_CC_1/10-04-2016-DDSM-28736/1-ROI mask images-28685/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00116_RIGHT_CC/10-04-2016-DDSM-73393/1-full mammogram images-82494/000000.dcm",
+            "sid": "00116_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01623",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01623_RIGHT_MLO_1/10-04-2016-DDSM-91765/1-ROI mask images-51299/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01623_RIGHT_MLO/10-04-2016-DDSM-78818/1-full mammogram images-40952/000000.dcm",
+            "sid": "01623_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01612",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01612_LEFT_CC_1/07-21-2016-DDSM-45484/1-ROI mask images-81788/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01612_LEFT_CC/07-20-2016-DDSM-01526/1-full mammogram images-58556/000000.dcm",
+            "sid": "01612_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01268",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01268_RIGHT_CC_1/07-21-2016-DDSM-54626/1-ROI mask images-82375/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01268_RIGHT_CC/07-20-2016-DDSM-18584/1-full mammogram images-51191/000000.dcm",
+            "sid": "01268_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01271",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01271_RIGHT_CC_1/07-21-2016-DDSM-87556/1-ROI mask images-50993/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01271_RIGHT_CC/07-20-2016-DDSM-77036/1-full mammogram images-09227/000000.dcm",
+            "sid": "01271_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00319",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00319_LEFT_CC_1/07-21-2016-DDSM-46141/1-ROI mask images-69217/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00319_LEFT_CC/07-20-2016-DDSM-23302/1-full mammogram images-74460/000000.dcm",
+            "sid": "00319_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00234",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00234_LEFT_CC_1/07-21-2016-DDSM-50217/1-ROI mask images-76961/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00234_LEFT_CC/07-20-2016-DDSM-86408/1-full mammogram images-83711/000000.dcm",
+            "sid": "00234_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01138",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01138_RIGHT_MLO_1/07-21-2016-DDSM-30383/1-ROI mask images-67947/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01138_RIGHT_MLO/07-20-2016-DDSM-75730/1-full mammogram images-53420/000000.dcm",
+            "sid": "01138_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00044",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00044_RIGHT_CC_1/07-21-2016-DDSM-75344/1-ROI mask images-25492/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00044_RIGHT_CC_2/07-21-2016-DDSM-33313/1-ROI mask images-60878/000000.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00044_RIGHT_CC_4/07-21-2016-DDSM-00793/1-ROI mask images-80968/000000.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00044_RIGHT_CC_3/07-21-2016-DDSM-14174/1-ROI mask images-14592/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00044_RIGHT_CC/07-20-2016-DDSM-79148/1-full mammogram images-44331/000000.dcm",
+            "sid": "00044_RIGHT_CC"
+        },
+        2
+    ],
+    [
+        {
+            "pid": "00798",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00798_RIGHT_MLO_1/07-21-2016-DDSM-32246/1-ROI mask images-93700/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00798_RIGHT_MLO/07-20-2016-DDSM-41535/1-full mammogram images-59693/000000.dcm",
+            "sid": "00798_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01474",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01474_RIGHT_MLO_1/07-21-2016-DDSM-93161/1-ROI mask images-85315/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01474_RIGHT_MLO/07-20-2016-DDSM-71924/1-full mammogram images-98262/000000.dcm",
+            "sid": "01474_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01833",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01833_RIGHT_MLO_1/10-04-2016-DDSM-70652/1-ROI mask images-84798/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01833_RIGHT_MLO/10-04-2016-DDSM-82884/1-full mammogram images-77852/000000.dcm",
+            "sid": "01833_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00566",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00566_RIGHT_CC_1/07-21-2016-DDSM-25078/1-ROI mask images-62588/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00566_RIGHT_CC/07-20-2016-DDSM-04480/1-full mammogram images-17412/000000.dcm",
+            "sid": "00566_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01434",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01434_LEFT_MLO_1/07-21-2016-DDSM-26568/1-ROI mask images-88045/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01434_LEFT_MLO/07-20-2016-DDSM-77994/1-full mammogram images-92016/000000.dcm",
+            "sid": "01434_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00758",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00758_LEFT_MLO_1/10-04-2016-DDSM-85381/1-ROI mask images-35458/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00758_LEFT_MLO/10-04-2016-DDSM-99016/1-full mammogram images-75694/000000.dcm",
+            "sid": "00758_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01983",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01983_LEFT_MLO_1/07-21-2016-DDSM-58217/1-ROI mask images-00908/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01983_LEFT_MLO/07-20-2016-DDSM-67431/1-full mammogram images-43230/000000.dcm",
+            "sid": "01983_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01262",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_01262_RIGHT_CC_3/09-06-2017-DDSM-98351/1-ROI mask images-33279/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_01262_RIGHT_CC_4/09-06-2017-DDSM-39905/1-ROI mask images-20813/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01262_RIGHT_CC_2/07-21-2016-DDSM-33151/1-ROI mask images-00208/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01262_RIGHT_CC_1/07-21-2016-DDSM-01117/1-ROI mask images-56020/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01262_RIGHT_CC/07-20-2016-DDSM-82193/1-full mammogram images-54701/000000.dcm",
+            "sid": "01262_RIGHT_CC"
+        },
+        2
+    ],
+    [
+        {
+            "pid": "01394",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01394_LEFT_MLO_2/07-21-2016-DDSM-91151/1-ROI mask images-20967/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01394_LEFT_MLO_1/07-21-2016-DDSM-18433/1-ROI mask images-38947/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01394_LEFT_MLO/07-20-2016-DDSM-10253/1-full mammogram images-20050/000000.dcm",
+            "sid": "01394_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01394",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01394_LEFT_MLO_2/07-21-2016-DDSM-91151/1-ROI mask images-20967/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01394_LEFT_MLO_1/07-21-2016-DDSM-18433/1-ROI mask images-38947/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01394_LEFT_MLO/07-20-2016-DDSM-10253/1-full mammogram images-20050/000000.dcm",
+            "sid": "01394_LEFT_MLO"
+        },
+        1
+    ],
+    [
+        {
+            "pid": "00212",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00212_RIGHT_CC_1/10-04-2016-DDSM-92529/1-ROI mask images-61796/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00212_RIGHT_CC/10-04-2016-DDSM-61874/1-full mammogram images-17323/000000.dcm",
+            "sid": "00212_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01494",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01494_LEFT_CC_2/07-21-2016-DDSM-88607/1-ROI mask images-57371/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01494_LEFT_CC/07-20-2016-DDSM-97598/1-full mammogram images-97070/000000.dcm",
+            "sid": "01494_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01567",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01567_LEFT_MLO_1/07-21-2016-DDSM-63261/1-ROI mask images-05023/000000.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_01567_LEFT_MLO_2/09-06-2017-DDSM-92623/1-ROI mask images-57867/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01567_LEFT_MLO/07-20-2016-DDSM-55605/1-full mammogram images-71905/000000.dcm",
+            "sid": "01567_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00737",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00737_LEFT_MLO_1/07-21-2016-DDSM-25132/1-ROI mask images-63904/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00737_LEFT_MLO/07-20-2016-DDSM-05624/1-full mammogram images-31730/000000.dcm",
+            "sid": "00737_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01671",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01671_LEFT_MLO_1/07-21-2016-DDSM-87718/1-ROI mask images-10381/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01671_LEFT_MLO/07-20-2016-DDSM-63620/1-full mammogram images-41249/000000.dcm",
+            "sid": "01671_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01279",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01279_LEFT_CC_1/07-21-2016-DDSM-97110/1-ROI mask images-58162/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01279_LEFT_CC/07-20-2016-DDSM-29426/1-full mammogram images-67779/000000.dcm",
+            "sid": "01279_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00997",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00997_LEFT_MLO_1/07-21-2016-DDSM-84931/1-ROI mask images-89681/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00997_LEFT_MLO/07-20-2016-DDSM-88746/1-full mammogram images-96338/000000.dcm",
+            "sid": "00997_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00194",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00194_RIGHT_MLO_1/10-04-2016-DDSM-99415/1-ROI mask images-78260/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00194_RIGHT_MLO/10-04-2016-DDSM-64001/1-full mammogram images-92939/000000.dcm",
+            "sid": "00194_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01326",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01326_LEFT_MLO_1/07-21-2016-DDSM-26773/1-ROI mask images-78272/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01326_LEFT_MLO/07-20-2016-DDSM-31126/1-full mammogram images-98640/000000.dcm",
+            "sid": "01326_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01031",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01031_LEFT_CC_1/07-21-2016-DDSM-51172/1-ROI mask images-89983/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01031_LEFT_CC/07-20-2016-DDSM-72748/1-full mammogram images-64401/000000.dcm",
+            "sid": "01031_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00296",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00296_LEFT_MLO_1/10-04-2016-DDSM-11173/1-ROI mask images-38700/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00296_LEFT_MLO/10-04-2016-DDSM-37204/1-full mammogram images-25098/000000.dcm",
+            "sid": "00296_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01307",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01307_RIGHT_CC_1/10-04-2016-DDSM-95650/1-ROI mask images-18784/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01307_RIGHT_CC/10-04-2016-DDSM-70425/1-full mammogram images-86446/000000.dcm",
+            "sid": "01307_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00695",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00695_RIGHT_MLO_1/07-21-2016-DDSM-18438/1-ROI mask images-37209/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00695_RIGHT_MLO/07-20-2016-DDSM-51756/1-full mammogram images-87146/000000.dcm",
+            "sid": "00695_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01491",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01491_RIGHT_MLO_1/07-21-2016-DDSM-55660/1-ROI mask images-81251/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01491_RIGHT_MLO/07-20-2016-DDSM-15552/1-full mammogram images-49568/000000.dcm",
+            "sid": "01491_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00871",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00871_LEFT_MLO_1/07-21-2016-DDSM-56733/1-ROI mask images-11516/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00871_LEFT_MLO/07-20-2016-DDSM-94177/1-full mammogram images-43624/000000.dcm",
+            "sid": "00871_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01529",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01529_RIGHT_CC_1/07-21-2016-DDSM-92969/1-ROI mask images-58100/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01529_RIGHT_CC/07-20-2016-DDSM-73481/1-full mammogram images-91946/000000.dcm",
+            "sid": "01529_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01596",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01596_RIGHT_MLO_2/07-21-2016-DDSM-61503/1-ROI mask images-84762/000000.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01596_RIGHT_MLO_1/07-21-2016-DDSM-87516/1-ROI mask images-22284/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01596_RIGHT_MLO/07-20-2016-DDSM-96300/1-full mammogram images-08112/000000.dcm",
+            "sid": "01596_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00969",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_00969_LEFT_MLO_2/09-06-2017-DDSM-69481/1-ROI mask images-53489/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00969_LEFT_MLO_4/10-04-2016-DDSM-87499/1-ROI mask images-32161/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00969_LEFT_MLO_1/10-04-2016-DDSM-52897/1-ROI mask images-34010/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_00969_LEFT_MLO_3/09-06-2017-DDSM-65912/1-ROI mask images-97009/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_00969_LEFT_MLO_5/09-06-2017-DDSM-61305/1-ROI mask images-98192/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00969_LEFT_MLO/10-04-2016-DDSM-09326/1-full mammogram images-90204/000000.dcm",
+            "sid": "00969_LEFT_MLO"
+        },
+        3
+    ],
+    [
+        {
+            "pid": "00423",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00423_RIGHT_CC_1/07-21-2016-DDSM-26655/1-ROI mask images-92142/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00423_RIGHT_CC/07-20-2016-DDSM-47778/1-full mammogram images-34100/000000.dcm",
+            "sid": "00423_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01701",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01701_LEFT_CC_1/07-21-2016-DDSM-20878/1-ROI mask images-09846/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01701_LEFT_CC/07-20-2016-DDSM-41670/1-full mammogram images-92548/000000.dcm",
+            "sid": "01701_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01565",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01565_RIGHT_MLO_1/07-21-2016-DDSM-97030/1-ROI mask images-85829/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01565_RIGHT_MLO/07-20-2016-DDSM-07533/1-full mammogram images-24068/000000.dcm",
+            "sid": "01565_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01383",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01383_LEFT_MLO_1/07-21-2016-DDSM-01868/1-ROI mask images-70986/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01383_LEFT_MLO/07-20-2016-DDSM-89418/1-full mammogram images-20618/000000.dcm",
+            "sid": "01383_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00951",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00951_LEFT_CC_1/10-04-2016-DDSM-18992/1-ROI mask images-58610/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00951_LEFT_CC/10-04-2016-DDSM-55797/1-full mammogram images-70508/000000.dcm",
+            "sid": "00951_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00706",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00706_RIGHT_CC_1/07-21-2016-DDSM-75716/1-ROI mask images-76557/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00706_RIGHT_CC/07-20-2016-DDSM-98231/1-full mammogram images-29480/000000.dcm",
+            "sid": "00706_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01668",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01668_LEFT_CC_1/07-21-2016-DDSM-47506/1-ROI mask images-34989/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01668_LEFT_CC/07-20-2016-DDSM-38451/1-full mammogram images-05023/000000.dcm",
+            "sid": "01668_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01052",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01052_LEFT_MLO_1/07-21-2016-DDSM-53698/1-ROI mask images-83188/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01052_LEFT_MLO/07-20-2016-DDSM-70757/1-full mammogram images-00473/000000.dcm",
+            "sid": "01052_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00781",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00781_RIGHT_MLO_1/07-21-2016-DDSM-17100/1-ROI mask images-87377/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00781_RIGHT_MLO/07-20-2016-DDSM-87633/1-full mammogram images-03853/000000.dcm",
+            "sid": "00781_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00375",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00375_RIGHT_CC_1/10-04-2016-DDSM-38277/1-ROI mask images-41581/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00375_RIGHT_CC/10-04-2016-DDSM-14222/1-full mammogram images-26961/000000.dcm",
+            "sid": "00375_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00482",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00482_LEFT_CC_1/10-04-2016-DDSM-09814/1-ROI mask images-00132/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00482_LEFT_CC/10-04-2016-DDSM-92086/1-full mammogram images-07151/000000.dcm",
+            "sid": "00482_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00351",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00351_LEFT_MLO_1/07-21-2016-DDSM-41542/1-ROI mask images-99203/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00351_LEFT_MLO/07-20-2016-DDSM-18898/1-full mammogram images-24084/000000.dcm",
+            "sid": "00351_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01386",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01386_LEFT_CC_1/07-21-2016-DDSM-47379/1-ROI mask images-52576/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01386_LEFT_CC/07-20-2016-DDSM-69252/1-full mammogram images-77443/000000.dcm",
+            "sid": "01386_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00831",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00831_RIGHT_MLO_1/07-21-2016-DDSM-67429/1-ROI mask images-22020/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00831_RIGHT_MLO/07-20-2016-DDSM-25920/1-full mammogram images-78612/000000.dcm",
+            "sid": "00831_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00314",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00314_RIGHT_CC_1/07-21-2016-DDSM-67207/1-ROI mask images-88171/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00314_RIGHT_CC/07-20-2016-DDSM-51893/1-full mammogram images-74114/000000.dcm",
+            "sid": "00314_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01221",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01221_LEFT_MLO_1/07-21-2016-DDSM-98567/1-ROI mask images-12652/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01221_LEFT_MLO/07-20-2016-DDSM-41046/1-full mammogram images-97119/000000.dcm",
+            "sid": "01221_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00630",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00630_LEFT_MLO_1/07-21-2016-DDSM-14155/1-ROI mask images-93450/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00630_LEFT_MLO/07-20-2016-DDSM-76723/1-full mammogram images-92882/000000.dcm",
+            "sid": "00630_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00849",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00849_LEFT_CC_1/07-21-2016-DDSM-21206/1-ROI mask images-06272/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00849_LEFT_CC/07-20-2016-DDSM-80969/1-full mammogram images-82352/000000.dcm",
+            "sid": "00849_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01250",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01250_RIGHT_CC_1/07-21-2016-DDSM-41890/1-ROI mask images-60900/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01250_RIGHT_CC/07-20-2016-DDSM-94471/1-full mammogram images-43583/000000.dcm",
+            "sid": "01250_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01946",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01946_RIGHT_CC_1/07-21-2016-DDSM-05438/1-ROI mask images-03679/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01946_RIGHT_CC/07-20-2016-DDSM-27399/1-full mammogram images-73645/000000.dcm",
+            "sid": "01946_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00815",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00815_LEFT_MLO_1/07-21-2016-DDSM-08692/1-ROI mask images-53162/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00815_LEFT_MLO/07-20-2016-DDSM-53187/1-full mammogram images-88621/000000.dcm",
+            "sid": "00815_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00522",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00522_RIGHT_MLO_1/07-21-2016-DDSM-93293/1-ROI mask images-37189/000000.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_00522_RIGHT_MLO_2/09-06-2017-DDSM-73258/1-ROI mask images-91015/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00522_RIGHT_MLO/07-20-2016-DDSM-30665/1-full mammogram images-70495/000000.dcm",
+            "sid": "00522_RIGHT_MLO"
+        },
+        1
+    ],
+    [
+        {
+            "pid": "01158",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01158_RIGHT_MLO_1/07-21-2016-DDSM-37258/1-ROI mask images-72959/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01158_RIGHT_MLO/07-20-2016-DDSM-46544/1-full mammogram images-87495/000000.dcm",
+            "sid": "01158_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01076",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01076_RIGHT_MLO_1/07-21-2016-DDSM-71702/1-ROI mask images-68957/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01076_RIGHT_MLO/07-20-2016-DDSM-23709/1-full mammogram images-46659/000000.dcm",
+            "sid": "01076_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00206",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00206_RIGHT_MLO_1/07-21-2016-DDSM-62345/1-ROI mask images-21063/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00206_RIGHT_MLO/07-20-2016-DDSM-40097/1-full mammogram images-92414/000000.dcm",
+            "sid": "00206_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00190",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00190_LEFT_MLO_1/07-21-2016-DDSM-35532/1-ROI mask images-18679/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00190_LEFT_MLO/07-20-2016-DDSM-33299/1-full mammogram images-63719/000000.dcm",
+            "sid": "00190_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00200",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00200_LEFT_CC_1/10-04-2016-DDSM-13023/1-ROI mask images-08674/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00200_LEFT_CC/10-04-2016-DDSM-16066/1-full mammogram images-26808/000000.dcm",
+            "sid": "00200_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00439",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00439_RIGHT_MLO_1/07-21-2016-DDSM-56927/1-ROI mask images-48863/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00439_RIGHT_MLO/07-20-2016-DDSM-27770/1-full mammogram images-82397/000000.dcm",
+            "sid": "00439_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01725",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01725_RIGHT_CC_1/07-21-2016-DDSM-60329/1-ROI mask images-67693/000000.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_01725_RIGHT_CC_2/09-06-2017-DDSM-67627/1-ROI mask images-18072/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01725_RIGHT_CC/07-20-2016-DDSM-68111/1-full mammogram images-27765/000000.dcm",
+            "sid": "01725_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00828",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00828_LEFT_CC_1/07-21-2016-DDSM-80981/1-ROI mask images-94276/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00828_LEFT_CC/07-20-2016-DDSM-93979/1-full mammogram images-52922/000000.dcm",
+            "sid": "00828_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00564",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00564_RIGHT_CC_1/07-21-2016-DDSM-93360/1-ROI mask images-03058/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00564_RIGHT_CC/07-20-2016-DDSM-54744/1-full mammogram images-88932/000000.dcm",
+            "sid": "00564_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00450",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00450_LEFT_MLO_1/07-21-2016-DDSM-74302/1-ROI mask images-21297/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00450_LEFT_MLO/07-20-2016-DDSM-25292/1-full mammogram images-66649/000000.dcm",
+            "sid": "00450_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00922",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00922_RIGHT_MLO_1/10-04-2016-DDSM-30078/1-ROI mask images-00265/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00922_RIGHT_MLO/10-04-2016-DDSM-52623/1-full mammogram images-27698/000000.dcm",
+            "sid": "00922_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01663",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01663_RIGHT_CC_1/07-21-2016-DDSM-73933/1-ROI mask images-76605/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01663_RIGHT_CC/07-20-2016-DDSM-97103/1-full mammogram images-79006/000000.dcm",
+            "sid": "01663_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00719",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00719_LEFT_MLO_1/07-21-2016-DDSM-76819/1-ROI mask images-48226/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00719_LEFT_MLO/07-20-2016-DDSM-87988/1-full mammogram images-28906/000000.dcm",
+            "sid": "00719_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01573",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01573_RIGHT_CC_1/07-21-2016-DDSM-50979/1-ROI mask images-29058/000000.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_01573_RIGHT_CC_2/09-06-2017-DDSM-92145/1-ROI mask images-64972/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_01573_RIGHT_CC_3/09-06-2017-DDSM-32426/1-ROI mask images-03096/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01573_RIGHT_CC/07-20-2016-DDSM-80053/1-full mammogram images-08234/000000.dcm",
+            "sid": "01573_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01661",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01661_LEFT_CC_1/10-04-2016-DDSM-46625/1-ROI mask images-23520/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01661_LEFT_CC/10-04-2016-DDSM-21000/1-full mammogram images-06321/000000.dcm",
+            "sid": "01661_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00984",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00984_RIGHT_CC_1/07-21-2016-DDSM-53069/1-ROI mask images-28198/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00984_RIGHT_CC/07-20-2016-DDSM-35301/1-full mammogram images-91805/000000.dcm",
+            "sid": "00984_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01330",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01330_RIGHT_MLO_1/07-21-2016-DDSM-28891/1-ROI mask images-97978/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01330_RIGHT_MLO/07-20-2016-DDSM-04101/1-full mammogram images-66213/000000.dcm",
+            "sid": "01330_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00572",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00572_RIGHT_CC_1/07-21-2016-DDSM-35944/1-ROI mask images-59890/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00572_RIGHT_CC/07-20-2016-DDSM-49739/1-full mammogram images-72216/000000.dcm",
+            "sid": "00572_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00363",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00363_LEFT_CC_1/07-21-2016-DDSM-13914/1-ROI mask images-33281/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00363_LEFT_CC/07-20-2016-DDSM-81104/1-full mammogram images-28813/000000.dcm",
+            "sid": "00363_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00431",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00431_RIGHT_MLO_2/07-21-2016-DDSM-81382/1-ROI mask images-12304/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00431_RIGHT_MLO/07-20-2016-DDSM-34188/1-full mammogram images-17340/000000.dcm",
+            "sid": "00431_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01356",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01356_LEFT_MLO_1/07-21-2016-DDSM-75052/1-ROI mask images-12780/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01356_LEFT_MLO/07-20-2016-DDSM-06491/1-full mammogram images-36016/000000.dcm",
+            "sid": "01356_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00569",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00569_RIGHT_MLO_1/07-21-2016-DDSM-86512/1-ROI mask images-27680/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00569_RIGHT_MLO/07-20-2016-DDSM-24108/1-full mammogram images-58021/000000.dcm",
+            "sid": "00569_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01430",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01430_RIGHT_MLO_1/07-21-2016-DDSM-12957/1-ROI mask images-20137/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01430_RIGHT_MLO/07-20-2016-DDSM-07692/1-full mammogram images-65333/000000.dcm",
+            "sid": "01430_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00987",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00987_LEFT_CC_1/10-04-2016-DDSM-37429/1-ROI mask images-16010/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00987_LEFT_CC/10-04-2016-DDSM-73932/1-full mammogram images-37372/000000.dcm",
+            "sid": "00987_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01788",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01788_RIGHT_MLO_1/07-21-2016-DDSM-65593/1-ROI mask images-64008/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01788_RIGHT_MLO/07-20-2016-DDSM-16194/1-full mammogram images-57896/000000.dcm",
+            "sid": "01788_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00987",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00987_LEFT_MLO_1/10-04-2016-DDSM-44052/1-ROI mask images-66132/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00987_LEFT_MLO/10-04-2016-DDSM-35269/1-full mammogram images-30967/000000.dcm",
+            "sid": "00987_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00706",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00706_RIGHT_MLO_1/07-21-2016-DDSM-74086/1-ROI mask images-20907/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00706_RIGHT_MLO/07-20-2016-DDSM-93294/1-full mammogram images-34719/000000.dcm",
+            "sid": "00706_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01701",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01701_LEFT_MLO_1/07-21-2016-DDSM-12845/1-ROI mask images-28677/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01701_LEFT_MLO/07-20-2016-DDSM-82735/1-full mammogram images-77790/000000.dcm",
+            "sid": "01701_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00363",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00363_LEFT_MLO_1/07-21-2016-DDSM-64063/1-ROI mask images-53247/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00363_LEFT_MLO/07-20-2016-DDSM-32544/1-full mammogram images-56561/000000.dcm",
+            "sid": "00363_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01381",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01381_RIGHT_MLO_1/10-04-2016-DDSM-90833/1-ROI mask images-47547/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01381_RIGHT_MLO/10-04-2016-DDSM-18288/1-full mammogram images-69896/000000.dcm",
+            "sid": "01381_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01685",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01685_RIGHT_MLO_1/07-21-2016-DDSM-16066/1-ROI mask images-62914/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01685_RIGHT_MLO/07-20-2016-DDSM-49624/1-full mammogram images-15105/000000.dcm",
+            "sid": "01685_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00494",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00494_RIGHT_MLO_1/10-04-2016-DDSM-67395/1-ROI mask images-75682/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00494_RIGHT_MLO/10-04-2016-DDSM-77786/1-full mammogram images-12382/000000.dcm",
+            "sid": "00494_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01108",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01108_RIGHT_CC_1/10-04-2016-DDSM-28011/1-ROI mask images-58178/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01108_RIGHT_CC/10-04-2016-DDSM-68980/1-full mammogram images-00014/000000.dcm",
+            "sid": "01108_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01612",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01612_LEFT_MLO_1/07-21-2016-DDSM-46722/1-ROI mask images-11103/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01612_LEFT_MLO/07-20-2016-DDSM-55380/1-full mammogram images-37997/000000.dcm",
+            "sid": "01612_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00566",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00566_RIGHT_MLO_1/07-21-2016-DDSM-31627/1-ROI mask images-26438/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00566_RIGHT_MLO/07-20-2016-DDSM-08324/1-full mammogram images-24866/000000.dcm",
+            "sid": "00566_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00815",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00815_LEFT_CC_1/07-21-2016-DDSM-20832/1-ROI mask images-17796/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00815_LEFT_CC/07-20-2016-DDSM-65062/1-full mammogram images-97121/000000.dcm",
+            "sid": "00815_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01433",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01433_LEFT_MLO_1/07-21-2016-DDSM-04137/1-ROI mask images-55813/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01433_LEFT_MLO/07-20-2016-DDSM-27901/1-full mammogram images-04655/000000.dcm",
+            "sid": "01433_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00110",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00110_LEFT_CC_1/07-21-2016-DDSM-39523/1-ROI mask images-27690/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00110_LEFT_CC/07-20-2016-DDSM-64502/1-full mammogram images-36037/000000.dcm",
+            "sid": "00110_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01768",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01768_LEFT_MLO_1/07-21-2016-DDSM-48691/1-ROI mask images-54735/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01768_LEFT_MLO/07-20-2016-DDSM-18162/1-full mammogram images-63060/000000.dcm",
+            "sid": "01768_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00779",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00779_LEFT_MLO_1/07-21-2016-DDSM-50664/1-ROI mask images-34660/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00779_LEFT_MLO/07-20-2016-DDSM-31809/1-full mammogram images-46070/000000.dcm",
+            "sid": "00779_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01682",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01682_LEFT_CC_1/07-21-2016-DDSM-47471/1-ROI mask images-31634/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01682_LEFT_CC/07-20-2016-DDSM-00077/1-full mammogram images-65130/000000.dcm",
+            "sid": "01682_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01776",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01776_RIGHT_MLO_1/07-21-2016-DDSM-88138/1-ROI mask images-53282/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01776_RIGHT_MLO/07-20-2016-DDSM-85115/1-full mammogram images-63073/000000.dcm",
+            "sid": "01776_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01540",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01540_LEFT_MLO_1/07-21-2016-DDSM-45352/1-ROI mask images-65346/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01540_LEFT_MLO/07-20-2016-DDSM-09642/1-full mammogram images-12994/000000.dcm",
+            "sid": "01540_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00224",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00224_RIGHT_MLO_1/07-21-2016-DDSM-26527/1-ROI mask images-42723/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00224_RIGHT_MLO/07-20-2016-DDSM-47608/1-full mammogram images-46149/000000.dcm",
+            "sid": "00224_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00051",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00051_LEFT_MLO_1/07-21-2016-DDSM-14815/1-ROI mask images-93758/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00051_LEFT_MLO/07-20-2016-DDSM-35388/1-full mammogram images-04692/000000.dcm",
+            "sid": "00051_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00929",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00929_LEFT_CC_1/07-21-2016-DDSM-25674/1-ROI mask images-55704/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00929_LEFT_CC/07-20-2016-DDSM-26262/1-full mammogram images-69732/000000.dcm",
+            "sid": "00929_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00586",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00586_LEFT_MLO_1/07-21-2016-DDSM-36864/1-ROI mask images-29283/000000.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00586_LEFT_MLO_2/07-21-2016-DDSM-55065/1-ROI mask images-39586/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00586_LEFT_MLO/07-20-2016-DDSM-15026/1-full mammogram images-49412/000000.dcm",
+            "sid": "00586_LEFT_MLO"
+        },
+        1
+    ],
+    [
+        {
+            "pid": "00662",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00662_LEFT_MLO_1/10-04-2016-DDSM-17886/1-ROI mask images-74419/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00662_LEFT_MLO/10-04-2016-DDSM-34648/1-full mammogram images-02827/000000.dcm",
+            "sid": "00662_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01546",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01546_LEFT_MLO_1/10-04-2016-DDSM-47619/1-ROI mask images-46336/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01546_LEFT_MLO/10-04-2016-DDSM-13398/1-full mammogram images-82826/000000.dcm",
+            "sid": "01546_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00442",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00442_RIGHT_MLO_1/07-21-2016-DDSM-22168/1-ROI mask images-35015/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00442_RIGHT_MLO/07-20-2016-DDSM-27104/1-full mammogram images-98892/000000.dcm",
+            "sid": "00442_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00283",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00283_RIGHT_CC_1/07-21-2016-DDSM-51823/1-ROI mask images-31709/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00283_RIGHT_CC/07-20-2016-DDSM-16328/1-full mammogram images-46206/000000.dcm",
+            "sid": "00283_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00639",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00639_LEFT_MLO_1/10-04-2016-DDSM-82359/1-ROI mask images-89378/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00639_LEFT_MLO/10-04-2016-DDSM-52529/1-full mammogram images-08921/000000.dcm",
+            "sid": "00639_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01364",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01364_LEFT_CC_1/07-21-2016-DDSM-51343/1-ROI mask images-18423/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01364_LEFT_CC/07-20-2016-DDSM-95494/1-full mammogram images-56493/000000.dcm",
+            "sid": "01364_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01250",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01250_RIGHT_MLO_1/07-21-2016-DDSM-35070/1-ROI mask images-27993/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01250_RIGHT_MLO/07-20-2016-DDSM-29761/1-full mammogram images-25657/000000.dcm",
+            "sid": "01250_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00265",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00265_RIGHT_CC_1/07-21-2016-DDSM-92793/1-ROI mask images-23398/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00265_RIGHT_CC/07-20-2016-DDSM-20410/1-full mammogram images-50916/000000.dcm",
+            "sid": "00265_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00296",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00296_LEFT_CC_1/10-04-2016-DDSM-82051/1-ROI mask images-80212/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00296_LEFT_CC/10-04-2016-DDSM-33773/1-full mammogram images-45187/000000.dcm",
+            "sid": "00296_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01000",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01000_RIGHT_MLO_1/07-21-2016-DDSM-40948/1-ROI mask images-32304/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01000_RIGHT_MLO/07-20-2016-DDSM-12052/1-full mammogram images-66126/000000.dcm",
+            "sid": "01000_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00952",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00952_RIGHT_CC_1/07-21-2016-DDSM-11475/1-ROI mask images-00855/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00952_RIGHT_CC/07-20-2016-DDSM-50294/1-full mammogram images-83308/000000.dcm",
+            "sid": "00952_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00334",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00334_LEFT_MLO_1/07-21-2016-DDSM-80225/1-ROI mask images-24084/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00334_LEFT_MLO/07-20-2016-DDSM-92884/1-full mammogram images-69341/000000.dcm",
+            "sid": "00334_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00128",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00128_LEFT_CC_1/07-21-2016-DDSM-52010/1-ROI mask images-30921/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00128_LEFT_CC/07-20-2016-DDSM-51330/1-full mammogram images-83239/000000.dcm",
+            "sid": "00128_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00442",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00442_RIGHT_CC_1/07-21-2016-DDSM-97358/1-ROI mask images-67746/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00442_RIGHT_CC/07-20-2016-DDSM-46184/1-full mammogram images-08264/000000.dcm",
+            "sid": "00442_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00039",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00039_RIGHT_CC_1/07-21-2016-DDSM-03714/1-ROI mask images-72286/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00039_RIGHT_CC/07-20-2016-DDSM-89888/1-full mammogram images-69392/000000.dcm",
+            "sid": "00039_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00358",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00358_RIGHT_CC_1/10-04-2016-DDSM-51740/1-ROI mask images-47603/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00358_RIGHT_CC/10-04-2016-DDSM-37990/1-full mammogram images-10722/000000.dcm",
+            "sid": "00358_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01371",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01371_RIGHT_CC_1/07-21-2016-DDSM-28218/1-ROI mask images-23046/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01371_RIGHT_CC/07-20-2016-DDSM-17458/1-full mammogram images-71460/000000.dcm",
+            "sid": "01371_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01447",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01447_RIGHT_MLO_1/07-21-2016-DDSM-93162/1-ROI mask images-96776/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01447_RIGHT_MLO/07-20-2016-DDSM-94518/1-full mammogram images-44562/000000.dcm",
+            "sid": "01447_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00781",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00781_RIGHT_CC_1/07-21-2016-DDSM-41777/1-ROI mask images-43771/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00781_RIGHT_CC/07-20-2016-DDSM-40236/1-full mammogram images-62542/000000.dcm",
+            "sid": "00781_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01780",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01780_LEFT_MLO_1/07-21-2016-DDSM-84353/1-ROI mask images-02358/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01780_LEFT_MLO/07-20-2016-DDSM-38082/1-full mammogram images-48526/000000.dcm",
+            "sid": "01780_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01131",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01131_LEFT_CC_1/07-21-2016-DDSM-41088/1-ROI mask images-25902/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01131_LEFT_CC/07-20-2016-DDSM-45472/1-full mammogram images-18326/000000.dcm",
+            "sid": "01131_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01573",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_01573_RIGHT_MLO_3/09-06-2017-DDSM-04001/1-ROI mask images-58955/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_01573_RIGHT_MLO_2/09-06-2017-DDSM-44208/1-ROI mask images-88551/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01573_RIGHT_MLO_1/07-21-2016-DDSM-18527/1-ROI mask images-39190/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01573_RIGHT_MLO/07-20-2016-DDSM-88334/1-full mammogram images-46185/000000.dcm",
+            "sid": "01573_RIGHT_MLO"
+        },
+        2
+    ],
+    [
+        {
+            "pid": "01120",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01120_LEFT_MLO_1/07-21-2016-DDSM-12466/1-ROI mask images-17484/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01120_LEFT_MLO/07-20-2016-DDSM-37271/1-full mammogram images-81008/000000.dcm",
+            "sid": "01120_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00782",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00782_RIGHT_CC_1/07-21-2016-DDSM-76480/1-ROI mask images-34324/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00782_RIGHT_CC/07-20-2016-DDSM-52283/1-full mammogram images-19925/000000.dcm",
+            "sid": "00782_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00871",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00871_LEFT_CC_1/07-21-2016-DDSM-83744/1-ROI mask images-16857/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00871_LEFT_CC/07-20-2016-DDSM-03561/1-full mammogram images-56107/000000.dcm",
+            "sid": "00871_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00901",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00901_RIGHT_CC_1/07-21-2016-DDSM-71841/1-ROI mask images-37546/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00901_RIGHT_CC/07-20-2016-DDSM-82134/1-full mammogram images-54862/000000.dcm",
+            "sid": "00901_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00172",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00172_LEFT_CC_1/07-21-2016-DDSM-55827/1-ROI mask images-59424/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00172_LEFT_CC/07-20-2016-DDSM-19856/1-full mammogram images-70234/000000.dcm",
+            "sid": "00172_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00273",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00273_LEFT_CC_1/07-21-2016-DDSM-98037/1-ROI mask images-11351/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00273_LEFT_CC/07-20-2016-DDSM-98859/1-full mammogram images-70722/000000.dcm",
+            "sid": "00273_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00120",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00120_LEFT_CC_1/07-21-2016-DDSM-99811/1-ROI mask images-95097/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00120_LEFT_CC/07-20-2016-DDSM-04470/1-full mammogram images-31512/000000.dcm",
+            "sid": "00120_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01394",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01394_LEFT_CC_1/07-21-2016-DDSM-76456/1-ROI mask images-09467/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01394_LEFT_CC_2/07-21-2016-DDSM-19717/1-ROI mask images-20194/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01394_LEFT_CC/07-20-2016-DDSM-57059/1-full mammogram images-48791/000000.dcm",
+            "sid": "01394_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01394",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01394_LEFT_CC_1/07-21-2016-DDSM-76456/1-ROI mask images-09467/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01394_LEFT_CC_2/07-21-2016-DDSM-19717/1-ROI mask images-20194/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01394_LEFT_CC/07-20-2016-DDSM-57059/1-full mammogram images-48791/000000.dcm",
+            "sid": "01394_LEFT_CC"
+        },
+        1
+    ],
+    [
+        {
+            "pid": "01189",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01189_LEFT_CC_1/07-21-2016-DDSM-52949/1-ROI mask images-80129/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01189_LEFT_CC/07-20-2016-DDSM-22498/1-full mammogram images-73061/000000.dcm",
+            "sid": "01189_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00779",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00779_LEFT_CC_1/07-20-2016-DDSM-03395/1-ROI mask images-75890/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00779_LEFT_CC/07-20-2016-DDSM-16686/1-full mammogram images-92377/000000.dcm",
+            "sid": "00779_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00797",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00797_LEFT_CC_1/07-21-2016-DDSM-57971/1-ROI mask images-82856/000000.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00797_LEFT_CC_2/07-21-2016-DDSM-94407/1-ROI mask images-53380/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00797_LEFT_CC/07-20-2016-DDSM-32131/1-full mammogram images-30590/000000.dcm",
+            "sid": "00797_LEFT_CC"
+        },
+        1
+    ],
+    [
+        {
+            "pid": "00695",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00695_RIGHT_CC_1/07-21-2016-DDSM-13736/1-ROI mask images-46400/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00695_RIGHT_CC/07-20-2016-DDSM-95122/1-full mammogram images-79450/000000.dcm",
+            "sid": "00695_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00615",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00615_RIGHT_CC_1/10-04-2016-DDSM-98870/1-ROI mask images-12860/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00615_RIGHT_CC/10-04-2016-DDSM-51589/1-full mammogram images-74346/000000.dcm",
+            "sid": "00615_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00630",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00630_LEFT_CC_1/07-21-2016-DDSM-05784/1-ROI mask images-90074/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00630_LEFT_CC/07-20-2016-DDSM-90012/1-full mammogram images-95033/000000.dcm",
+            "sid": "00630_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00413",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00413_LEFT_CC_1/07-21-2016-DDSM-54951/1-ROI mask images-84844/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00413_LEFT_CC/07-20-2016-DDSM-28840/1-full mammogram images-82823/000000.dcm",
+            "sid": "00413_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00450",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00450_LEFT_CC_1/07-21-2016-DDSM-60176/1-ROI mask images-51184/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00450_LEFT_CC/07-20-2016-DDSM-86745/1-full mammogram images-94874/000000.dcm",
+            "sid": "00450_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01204",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01204_RIGHT_MLO_1/10-04-2016-DDSM-29489/1-ROI mask images-70497/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01204_RIGHT_MLO/10-04-2016-DDSM-84294/1-full mammogram images-15691/000000.dcm",
+            "sid": "01204_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00046",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00046_RIGHT_MLO_1/07-21-2016-DDSM-36723/1-ROI mask images-84709/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00046_RIGHT_MLO/07-20-2016-DDSM-88724/1-full mammogram images-27479/000000.dcm",
+            "sid": "00046_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00383",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00383_LEFT_MLO_1/07-21-2016-DDSM-39496/1-ROI mask images-92620/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00383_LEFT_MLO/07-20-2016-DDSM-95975/1-full mammogram images-30575/000000.dcm",
+            "sid": "00383_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01864",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_01864_LEFT_CC_3/09-06-2017-DDSM-90658/1-ROI mask images-51594/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01864_LEFT_CC_1/07-21-2016-DDSM-68983/1-ROI mask images-80183/000000.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_01864_LEFT_CC_2/09-06-2017-DDSM-78194/1-ROI mask images-98665/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_01864_LEFT_CC_4/09-06-2017-DDSM-20061/1-ROI mask images-48529/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01864_LEFT_CC/07-20-2016-DDSM-69121/1-full mammogram images-17011/000000.dcm",
+            "sid": "01864_LEFT_CC"
+        },
+        2
+    ],
+    [
+        {
+            "pid": "01413",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01413_RIGHT_MLO_1/07-21-2016-DDSM-56514/1-ROI mask images-29248/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01413_RIGHT_MLO/07-20-2016-DDSM-72034/1-full mammogram images-12131/000000.dcm",
+            "sid": "01413_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01394",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01394_RIGHT_MLO_1/07-21-2016-DDSM-78709/1-ROI mask images-82487/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01394_RIGHT_MLO/07-20-2016-DDSM-64168/1-full mammogram images-15556/000000.dcm",
+            "sid": "01394_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01218",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01218_RIGHT_MLO_2/07-21-2016-DDSM-35622/1-ROI mask images-12680/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01218_RIGHT_MLO/07-20-2016-DDSM-81598/1-full mammogram images-47350/000000.dcm",
+            "sid": "01218_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00265",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00265_RIGHT_MLO_1/07-21-2016-DDSM-39419/1-ROI mask images-55339/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00265_RIGHT_MLO/07-20-2016-DDSM-56262/1-full mammogram images-55686/000000.dcm",
+            "sid": "00265_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01640",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01640_LEFT_MLO_1/10-04-2016-DDSM-47922/1-ROI mask images-54852/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01640_LEFT_MLO/10-04-2016-DDSM-50810/1-full mammogram images-81586/000000.dcm",
+            "sid": "01640_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01204",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01204_RIGHT_CC_1/10-04-2016-DDSM-11234/1-ROI mask images-12224/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01204_RIGHT_CC/10-04-2016-DDSM-44813/1-full mammogram images-60358/000000.dcm",
+            "sid": "01204_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01617",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01617_LEFT_CC_1/10-04-2016-DDSM-89974/1-ROI mask images-59454/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01617_LEFT_CC/10-04-2016-DDSM-14002/1-full mammogram images-97692/000000.dcm",
+            "sid": "01617_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00798",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00798_RIGHT_CC_1/07-21-2016-DDSM-69464/1-ROI mask images-13349/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00798_RIGHT_CC/07-20-2016-DDSM-39457/1-full mammogram images-27611/000000.dcm",
+            "sid": "00798_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00441",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00441_RIGHT_MLO_1/07-21-2016-DDSM-00972/1-ROI mask images-96160/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00441_RIGHT_MLO/07-20-2016-DDSM-38324/1-full mammogram images-59961/000000.dcm",
+            "sid": "00441_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00543",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00543_RIGHT_MLO_1/07-21-2016-DDSM-31299/1-ROI mask images-21583/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00543_RIGHT_MLO/07-20-2016-DDSM-98122/1-full mammogram images-58320/000000.dcm",
+            "sid": "00543_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01427",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01427_LEFT_MLO_1/07-21-2016-DDSM-72177/1-ROI mask images-21660/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01427_LEFT_MLO/07-20-2016-DDSM-11217/1-full mammogram images-62853/000000.dcm",
+            "sid": "01427_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01799",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01799_LEFT_MLO_1/07-21-2016-DDSM-83492/1-ROI mask images-03320/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01799_LEFT_MLO/07-20-2016-DDSM-56460/1-full mammogram images-05587/000000.dcm",
+            "sid": "01799_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01221",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01221_LEFT_CC_1/07-21-2016-DDSM-02934/1-ROI mask images-77280/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01221_LEFT_CC/07-20-2016-DDSM-68911/1-full mammogram images-82675/000000.dcm",
+            "sid": "01221_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00328",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00328_LEFT_MLO_1/07-21-2016-DDSM-70783/1-ROI mask images-47192/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00328_LEFT_MLO/07-20-2016-DDSM-39090/1-full mammogram images-56790/000000.dcm",
+            "sid": "00328_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00172",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00172_LEFT_MLO_1/07-21-2016-DDSM-98123/1-ROI mask images-14894/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00172_LEFT_MLO/07-20-2016-DDSM-84870/1-full mammogram images-03242/000000.dcm",
+            "sid": "00172_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01565",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01565_RIGHT_CC_1/07-21-2016-DDSM-79554/1-ROI mask images-40775/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01565_RIGHT_CC/07-20-2016-DDSM-76524/1-full mammogram images-73443/000000.dcm",
+            "sid": "01565_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00984",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00984_RIGHT_MLO_1/07-21-2016-DDSM-95958/1-ROI mask images-80087/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00984_RIGHT_MLO/07-20-2016-DDSM-96306/1-full mammogram images-95888/000000.dcm",
+            "sid": "00984_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00978",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00978_RIGHT_MLO_1/07-21-2016-DDSM-55738/1-ROI mask images-23650/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00978_RIGHT_MLO/07-20-2016-DDSM-79072/1-full mammogram images-47705/000000.dcm",
+            "sid": "00978_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01190",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01190_LEFT_CC_1/07-21-2016-DDSM-10674/1-ROI mask images-75010/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01190_LEFT_CC/07-20-2016-DDSM-21670/1-full mammogram images-86613/000000.dcm",
+            "sid": "01190_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01416",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01416_RIGHT_MLO_1/10-04-2016-DDSM-91699/1-ROI mask images-80266/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01416_RIGHT_MLO/10-04-2016-DDSM-40579/1-full mammogram images-84588/000000.dcm",
+            "sid": "01416_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00064",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00064_RIGHT_MLO_1/07-21-2016-DDSM-91991/1-ROI mask images-45186/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00064_RIGHT_MLO/07-20-2016-DDSM-89837/1-full mammogram images-67605/000000.dcm",
+            "sid": "00064_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00224",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00224_RIGHT_CC_1/07-21-2016-DDSM-62466/1-ROI mask images-50969/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00224_RIGHT_CC/07-20-2016-DDSM-43031/1-full mammogram images-97809/000000.dcm",
+            "sid": "00224_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01600",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01600_RIGHT_CC_1/07-21-2016-DDSM-39234/1-ROI mask images-02944/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01600_RIGHT_CC/07-20-2016-DDSM-40743/1-full mammogram images-66302/000000.dcm",
+            "sid": "01600_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01551",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01551_LEFT_MLO_1/10-04-2016-DDSM-37267/1-ROI mask images-29331/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01551_LEFT_MLO/10-04-2016-DDSM-27641/1-full mammogram images-32498/000000.dcm",
+            "sid": "01551_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00516",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00516_LEFT_MLO_1/10-04-2016-DDSM-89836/1-ROI mask images-89266/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00516_LEFT_MLO/10-04-2016-DDSM-81745/1-full mammogram images-63647/000000.dcm",
+            "sid": "00516_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00678",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00678_LEFT_MLO_2/07-21-2016-DDSM-57363/1-ROI mask images-53025/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00678_LEFT_MLO/07-20-2016-DDSM-37484/1-full mammogram images-99904/000000.dcm",
+            "sid": "00678_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01477",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01477_LEFT_CC_1/10-04-2016-DDSM-70870/1-ROI mask images-34134/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01477_LEFT_CC/10-04-2016-DDSM-52179/1-full mammogram images-36727/000000.dcm",
+            "sid": "01477_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00788",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00788_RIGHT_MLO_1/10-04-2016-DDSM-22211/1-ROI mask images-43425/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00788_RIGHT_MLO/10-04-2016-DDSM-09320/1-full mammogram images-83342/000000.dcm",
+            "sid": "00788_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00194",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00194_RIGHT_CC_1/10-04-2016-DDSM-14034/1-ROI mask images-58721/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00194_RIGHT_CC/10-04-2016-DDSM-52705/1-full mammogram images-16033/000000.dcm",
+            "sid": "00194_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01418",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01418_RIGHT_MLO_1/07-21-2016-DDSM-01526/1-ROI mask images-63632/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01418_RIGHT_MLO/07-20-2016-DDSM-27648/1-full mammogram images-74799/000000.dcm",
+            "sid": "01418_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00335",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00335_LEFT_MLO_1/07-21-2016-DDSM-29593/1-ROI mask images-05081/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00335_LEFT_MLO/07-20-2016-DDSM-72433/1-full mammogram images-01704/000000.dcm",
+            "sid": "00335_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00732",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00732_LEFT_CC_1/07-21-2016-DDSM-36213/1-ROI mask images-91381/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00732_LEFT_CC/07-20-2016-DDSM-55439/1-full mammogram images-30538/000000.dcm",
+            "sid": "00732_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01165",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01165_RIGHT_CC_1/07-21-2016-DDSM-94503/1-ROI mask images-51114/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01165_RIGHT_CC/07-20-2016-DDSM-87014/1-full mammogram images-46429/000000.dcm",
+            "sid": "01165_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00601",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_00601_LEFT_MLO_1/09-06-2017-DDSM-32648/1-ROI mask images-03362/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00601_LEFT_MLO_2/10-04-2016-DDSM-67554/1-ROI mask images-60917/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00601_LEFT_MLO/10-04-2016-DDSM-77684/1-full mammogram images-45032/000000.dcm",
+            "sid": "00601_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01307",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01307_RIGHT_MLO_1/10-04-2016-DDSM-53335/1-ROI mask images-06037/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01307_RIGHT_MLO/10-04-2016-DDSM-48940/1-full mammogram images-81441/000000.dcm",
+            "sid": "01307_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00516",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00516_LEFT_CC_1/10-04-2016-DDSM-55301/1-ROI mask images-25901/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00516_LEFT_CC/10-04-2016-DDSM-97493/1-full mammogram images-52486/000000.dcm",
+            "sid": "00516_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01438",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01438_LEFT_MLO_1/07-21-2016-DDSM-13408/1-ROI mask images-73905/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01438_LEFT_MLO/07-20-2016-DDSM-39589/1-full mammogram images-10300/000000.dcm",
+            "sid": "01438_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00517",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00517_LEFT_MLO_1/07-21-2016-DDSM-66314/1-ROI mask images-21981/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00517_LEFT_MLO/07-20-2016-DDSM-85946/1-full mammogram images-68421/000000.dcm",
+            "sid": "00517_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00698",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00698_RIGHT_MLO_1/07-21-2016-DDSM-30333/1-ROI mask images-81537/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00698_RIGHT_MLO/07-20-2016-DDSM-16138/1-full mammogram images-85108/000000.dcm",
+            "sid": "00698_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01623",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01623_RIGHT_CC_1/10-04-2016-DDSM-19428/1-ROI mask images-81245/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01623_RIGHT_CC/10-04-2016-DDSM-85333/1-full mammogram images-64202/000000.dcm",
+            "sid": "01623_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00985",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00985_RIGHT_MLO_1/10-04-2016-DDSM-62776/1-ROI mask images-04080/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00985_RIGHT_MLO/10-04-2016-DDSM-21571/1-full mammogram images-78089/000000.dcm",
+            "sid": "00985_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00990",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00990_RIGHT_MLO_1/07-21-2016-DDSM-25262/1-ROI mask images-04843/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00990_RIGHT_MLO/07-20-2016-DDSM-57943/1-full mammogram images-69759/000000.dcm",
+            "sid": "00990_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01185",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01185_RIGHT_MLO_1/07-21-2016-DDSM-35371/1-ROI mask images-05414/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01185_RIGHT_MLO/07-20-2016-DDSM-81896/1-full mammogram images-90284/000000.dcm",
+            "sid": "01185_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00978",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00978_RIGHT_CC_1/07-21-2016-DDSM-25277/1-ROI mask images-09960/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00978_RIGHT_CC/07-20-2016-DDSM-78913/1-full mammogram images-71290/000000.dcm",
+            "sid": "00978_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01391",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01391_LEFT_CC_1/07-21-2016-DDSM-93554/1-ROI mask images-60452/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01391_LEFT_CC/07-20-2016-DDSM-56878/1-full mammogram images-00511/000000.dcm",
+            "sid": "01391_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00902",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00902_LEFT_MLO_1/07-21-2016-DDSM-61463/1-ROI mask images-15097/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00902_LEFT_MLO/07-20-2016-DDSM-47464/1-full mammogram images-97233/000000.dcm",
+            "sid": "00902_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01119",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01119_LEFT_CC_1/10-04-2016-DDSM-38591/1-ROI mask images-49969/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01119_LEFT_CC/10-04-2016-DDSM-61225/1-full mammogram images-85293/000000.dcm",
+            "sid": "01119_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00192",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00192_RIGHT_CC_1/10-04-2016-DDSM-43116/1-ROI mask images-84137/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00192_RIGHT_CC/10-04-2016-DDSM-40063/1-full mammogram images-47853/000000.dcm",
+            "sid": "00192_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00356",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00356_LEFT_CC_1/07-21-2016-DDSM-39056/1-ROI mask images-43149/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00356_LEFT_CC/07-20-2016-DDSM-64098/1-full mammogram images-95130/000000.dcm",
+            "sid": "00356_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01210",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01210_RIGHT_MLO_1/10-04-2016-DDSM-83441/1-ROI mask images-31672/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01210_RIGHT_MLO/10-04-2016-DDSM-06629/1-full mammogram images-48197/000000.dcm",
+            "sid": "01210_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00146",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00146_RIGHT_CC_1/07-21-2016-DDSM-82477/1-ROI mask images-26875/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00146_RIGHT_CC/07-20-2016-DDSM-61365/1-full mammogram images-07790/000000.dcm",
+            "sid": "00146_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01201",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01201_LEFT_CC_1/07-21-2016-DDSM-57143/1-ROI mask images-40984/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01201_LEFT_CC/07-20-2016-DDSM-85897/1-full mammogram images-65302/000000.dcm",
+            "sid": "01201_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01032",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01032_RIGHT_CC_1/07-21-2016-DDSM-09480/1-ROI mask images-74283/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01032_RIGHT_CC/07-20-2016-DDSM-36597/1-full mammogram images-76716/000000.dcm",
+            "sid": "01032_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00517",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00517_LEFT_CC_1/07-21-2016-DDSM-30935/1-ROI mask images-11250/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00517_LEFT_CC/07-20-2016-DDSM-57317/1-full mammogram images-71713/000000.dcm",
+            "sid": "00517_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01682",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01682_LEFT_MLO_1/07-21-2016-DDSM-42298/1-ROI mask images-01029/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01682_LEFT_MLO/07-20-2016-DDSM-49977/1-full mammogram images-02299/000000.dcm",
+            "sid": "01682_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01486",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01486_RIGHT_MLO_1/07-21-2016-DDSM-67654/1-ROI mask images-75106/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01486_RIGHT_MLO/07-20-2016-DDSM-23670/1-full mammogram images-40814/000000.dcm",
+            "sid": "01486_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00406",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00406_RIGHT_CC_1/07-21-2016-DDSM-52361/1-ROI mask images-36929/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00406_RIGHT_CC/07-20-2016-DDSM-75712/1-full mammogram images-38104/000000.dcm",
+            "sid": "00406_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00737",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00737_LEFT_CC_1/07-21-2016-DDSM-17993/1-ROI mask images-86787/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00737_LEFT_CC/07-20-2016-DDSM-02455/1-full mammogram images-17643/000000.dcm",
+            "sid": "00737_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01556",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01556_LEFT_CC_1/07-21-2016-DDSM-80879/1-ROI mask images-02589/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01556_LEFT_CC/07-20-2016-DDSM-82966/1-full mammogram images-79790/000000.dcm",
+            "sid": "01556_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00802",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00802_LEFT_CC_1/07-21-2016-DDSM-08580/1-ROI mask images-36615/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00802_LEFT_CC/07-20-2016-DDSM-69171/1-full mammogram images-66344/000000.dcm",
+            "sid": "00802_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01417",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01417_RIGHT_MLO_1/07-21-2016-DDSM-03606/1-ROI mask images-94983/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01417_RIGHT_MLO/07-20-2016-DDSM-32267/1-full mammogram images-00296/000000.dcm",
+            "sid": "01417_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01218",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01218_RIGHT_CC_2/07-21-2016-DDSM-68407/1-ROI mask images-05428/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01218_RIGHT_CC/07-20-2016-DDSM-80726/1-full mammogram images-46376/000000.dcm",
+            "sid": "01218_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00039",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00039_RIGHT_MLO_1/07-21-2016-DDSM-82715/1-ROI mask images-05753/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00039_RIGHT_MLO/07-20-2016-DDSM-34862/1-full mammogram images-49660/000000.dcm",
+            "sid": "00039_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00037",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00037_RIGHT_MLO_1/10-04-2016-DDSM-62492/1-ROI mask images-84055/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_00037_RIGHT_MLO/10-04-2016-DDSM-48441/1-full mammogram images-32362/000000.dcm",
+            "sid": "00037_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01365",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_01365_LEFT_CC_1/09-06-2017-DDSM-64181/1-ROI mask images-47002/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01365_LEFT_CC_2/10-04-2016-DDSM-14356/1-ROI mask images-98827/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01365_LEFT_CC/10-04-2016-DDSM-38001/1-full mammogram images-53929/000000.dcm",
+            "sid": "01365_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01365",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Calc-Training_P_01365_LEFT_CC_1/09-06-2017-DDSM-64181/1-ROI mask images-47002/000001.dcm",
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01365_LEFT_CC_2/10-04-2016-DDSM-14356/1-ROI mask images-98827/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Test_P_01365_LEFT_CC/10-04-2016-DDSM-38001/1-full mammogram images-53929/000000.dcm",
+            "sid": "01365_LEFT_CC"
+        },
+        1
+    ],
+    [
+        {
+            "pid": "00319",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00319_LEFT_MLO_1/07-21-2016-DDSM-96985/1-ROI mask images-04815/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00319_LEFT_MLO/07-20-2016-DDSM-80929/1-full mammogram images-38941/000000.dcm",
+            "sid": "00319_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00408",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00408_RIGHT_CC_1/07-21-2016-DDSM-73645/1-ROI mask images-67594/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00408_RIGHT_CC/07-20-2016-DDSM-08853/1-full mammogram images-76001/000000.dcm",
+            "sid": "00408_RIGHT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00051",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00051_LEFT_CC_1/07-21-2016-DDSM-82535/1-ROI mask images-08042/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00051_LEFT_CC/07-20-2016-DDSM-93090/1-full mammogram images-62296/000000.dcm",
+            "sid": "00051_LEFT_CC"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00651",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00651_RIGHT_MLO_1/07-21-2016-DDSM-70701/1-ROI mask images-65407/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00651_RIGHT_MLO/07-20-2016-DDSM-97817/1-full mammogram images-02748/000000.dcm",
+            "sid": "00651_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "00437",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00437_LEFT_MLO_1/07-21-2016-DDSM-79081/1-ROI mask images-21729/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_00437_LEFT_MLO/07-20-2016-DDSM-35171/1-full mammogram images-58586/000000.dcm",
+            "sid": "00437_LEFT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01036",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01036_RIGHT_MLO_1/07-21-2016-DDSM-44489/1-ROI mask images-87904/000000.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01036_RIGHT_MLO/07-20-2016-DDSM-44660/1-full mammogram images-13418/000000.dcm",
+            "sid": "01036_RIGHT_MLO"
+        },
+        0
+    ],
+    [
+        {
+            "pid": "01620",
+            "label": "cancer",
+            "masks": [
+                "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01620_RIGHT_MLO_1/07-21-2016-DDSM-05290/1-ROI mask images-49897/000001.dcm"
+            ],
+            "image": "/home/ubuntu/datasets/chest/CBIS-DDSM/Mass-Training_P_01620_RIGHT_MLO/07-20-2016-DDSM-19631/1-full mammogram images-04307/000000.dcm",
+            "sid": "01620_RIGHT_MLO"
+        },
+        0
+    ]
+]
