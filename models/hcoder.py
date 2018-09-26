@@ -49,7 +49,9 @@ class hcoder:
         poolspec=h_pool,
         unconvspec=h_unconv,
         unpoolspec=h_unpool,
-        nlabels=3):
+        nlabels=3,
+        aux=None, # None, fmaps, heats
+    ):
 
         print(' [!] Conv Spec:')
         dynsize = imsize
@@ -67,11 +69,21 @@ class hcoder:
             print('  |  %d => %d: %s' % (insize, dynout, layerspec))
 
         iminput = Input(shape=(imsize, imsize, 1))
-        # hinput = Input(shape=(hsize, hsize, 1))
         carry = iminput
 
+        postfunc = None
+
+        if aux == 'fmaps':
+            finput = Input(shape=(64, 64, 512))
+            def concat_fmaps(layer_ii, carry):
+                if layer_ii == 3:
+                    carry = Concatenate()([carry, finput])
+                    return carry
+                return carry
+            postfunc = concat_fmaps
+
         # skips hold pre-maxpool output layers
-        carry, skips = auto_conv(carry, convspec, poolspec)
+        carry, skips = auto_conv(carry, convspec, poolspec, post=postfunc)
         assert len(skips) == len(unconvspec)
 
         lastfilters = convspec[-1][-1]
@@ -82,7 +94,10 @@ class hcoder:
         carry = Dense(nlabels)(carry)
         carry = Activation('softmax', name='yhat')(carry)
 
-        model = Model(iminput, carry)
+        if aux == 'fmaps':
+            model = Model([iminput, finput], carry)
+        else:
+            model = Model(iminput, carry)
 
         self.model = model
         self.core = model

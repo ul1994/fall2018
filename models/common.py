@@ -27,7 +27,7 @@ CONV_DEFAULT = [
 ] # 4
 
 UNCONV_DEFAULT = [
-    [512//2, 512, 512, 512],# 
+    [512//2, 512, 512, 512],#
     [512//2, 512, 512, 512],# 16
     [256//2, 256, 256, 256], # 128
     [256//2, 256, 256, 256], # 64
@@ -37,9 +37,11 @@ UNCONV_DEFAULT = [
 
 UNPOOL_DEFAULT = [True] * 6
 
-def auto_conv(carry, convspec, poolspec):
+def auto_conv(carry, convspec, poolspec, post=None):
     skips = []
     for lii, layerspec in enumerate(convspec):
+        if post is not None:
+            carry = post(lii, carry)
         for fii, nFilters in enumerate(layerspec):
             carry = Conv2D(nFilters, (3, 3), padding='same')(carry)
             carry = BatchNormalization()(carry)
