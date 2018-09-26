@@ -24,21 +24,24 @@ GAP_CONV = [
     [256, 256, 256, 256], # 128
     [256, 256, 256, 256], # 64
     [512, 512, 512, 512],# 32
-    [512, 512, 512, 512],# 32
-    [512, 512, 512, 512],# 32
-    [1024, 2048],# 32
+    [512, 512, 512, 512],# 16
+    [512, 512, 512, 512],# 16
+    [1024, 1024, 2048, 2048],# 8
 ] # 4
 
 GAP_POOL = [
     True, True, True, 
-    False, False, False,
+    True, True, False,
     False,
     False]
 
-class gap:
-    name = 'gap_v1'
+class gap_mask:
+    name = 'gap_mask_v1'
 
-    def __init__(self, imsize=256, nlabels=2, 
+    def __init__(self, 
+        imsize=256, 
+        nlabels=2, 
+        masksize=32, 
         convspec=GAP_CONV, poolspec=GAP_POOL):
 
         print(' [!] Conv Spec:')
@@ -53,28 +56,34 @@ class gap:
         carry = input
 
         carry, _ = auto_conv(carry, convspec, poolspec)
+        fmap = carry
+
+        # rpnbase
+        carry = Conv2D(2048, (3, 3), padding='same')(carry)
+        carry = BatchNormalization()(carry)
+        carry = Activation('relu')(carry)
+        rpnbase = carry
+
+        carry = Conv2D(512, (3, 3), padding='same')(carry)
+        carry = BatchNormalization()(carry)
+        carry = Activation('relu')(carry)
+
+        # rpn logits
+        carry = Conv2D(2, (1, 1), padding='same')(carry)
+        rpn = Activation('softmax', name='rpn')(carry)    
+        
+        # print(carry.get_shape())
             
-        carry = Reshape((32, 32, 2048))(carry)
-        featuremaps = carry
-        carry = AveragePooling2D((32, 32))(carry)
+        
+        carry = AveragePooling2D((dynsize, dynsize))(fmap)
         carry = Reshape((2048,))(carry)
-        # carry = Dense(2048)(carry)
-        # carry = BatchNormalization()(carry)
-        # carry = Activation('relu')(carry)
-        avgweights = carry
         carry = Dropout(0.5)(carry)
-        # carry = Dropout(0.5)(carry)
-        # carry = Dense(2048)(carry)
-        # carry = BatchNormalization()(carry)
-        # carry = Activation('relu')(carry)
-        # carry = Dropout(0.5)(carry)
         carry = Dense(nlabels)(carry)
-        carry = Activation('softmax')(carry)
+        yhat = Activation('softmax', name='yhat')(carry)
 
-        model = Model(input, carry)
-
+        model = Model(input, [rpn, yhat])
         self.model = model
-        self.saliency_model = Model(input, [featuremaps, avgweights])
+        # self.saliency_model = Model(input, [featuremaps, avgweights])
 
     def summary(self):
         self.model.summary()
@@ -82,20 +91,58 @@ class gap:
     def count_params(self):
         return '%.1f million' % (int(self.model.count_params()) / (1000 * 1000))
 
-    def saliency(self, imgs):
-        return self.saliency_model.predict(imgs) 
-        # return 
-
     def save(self):
         self.core.save_weights('checkpoints/%s.h5' % self.name)
 
-    def load(self):
-        self.core.load_weights('checkpoints/%s.h5' % self.name)
+    def load(self, path=None):
+        if path is not None:
+            self.core.load_weights(path)
+        else:
+            self.core.load_weights('checkpoints/%s.h5' % self.name)
 
     def compile(self):
         self.core = self.model
-        # self.model = mgpu(self.model)
+        self.model = mgpu(self.model)
         self.model = self.model
-        opt = Adam(0.001)
-        self.model.compile(optimizer=opt, loss='categorical_crossentropy', metrics=['accuracy'])
+        opt = Adam(0.0001)
+
+        def mse(y_true, y_pred):
+            return K.mean(K.square(y_pred - y_true), axis=-1)
+        def lossy_iou(ytrue, yguess, oob=1, iib=1):
+            # any prediction outside boundary should be identical
+            outside_penalty = oob * mse(
+                # compared against mask (treated as loose bound)
+                ytrue[:, :, :, 0], 
+                # mask out potential bg prediction within bounds
+                #  this only works b/c assumption that ytrue is outer bound
+                ytrue[:, :, :, 0] * yguess[:, :, :, 0])
+
+            # print((ytrue[:, :, :, 1] * yguess[:, :, :, 1]))
+            
+            # discount for any prediction within mask
+            #  no mse possible here because exact boundary is not known
+            inside_discount = iib * K.mean(
+                K.square(
+                    ytrue[:, :, :, 1] * yguess[:, :, :, 1]), axis=-1)
+
+            return outside_penalty - inside_discount
+
+        def outer_penalty(ytrue, yguess):
+            return mse(
+                # compared against mask (treated as loose bound)
+                ytrue[:, :, :, 0], 
+                # mask out potential bg prediction within bounds
+                #  this only works b/c assumption that ytrue is outer bound
+                ytrue[:, :, :, 0] * yguess[:, :, :, 0])
+
+        self.model.compile(
+            optimizer=opt, 
+            loss={
+                'rpn': lossy_iou,
+                'yhat': 'categorical_crossentropy',
+            }, 
+            metrics={
+                'yhat': 'accuracy',
+                'rpn': outer_penalty,
+            })
 

@@ -24,19 +24,19 @@ GAP_CONV = [
     [256, 256, 256, 256], # 128
     [256, 256, 256, 256], # 64
     [512, 512, 512, 512],# 32
-    [512, 512, 512, 512],# 32
-    [512, 512, 512, 512],# 32
-    [1024, 2048],# 32
+    [512, 512, 512, 512],# 16
+    [512, 512, 512, 512],# 8
+    [1024, 1024, 2048, 2048],# 8
 ] # 4
 
 GAP_POOL = [
     True, True, True, 
-    False, False, False,
+    True, True, False,
     False,
     False]
 
 class gap:
-    name = 'gap_v1'
+    name = 'gap_v2'
 
     def __init__(self, imsize=256, nlabels=2, 
         convspec=GAP_CONV, poolspec=GAP_POOL):
@@ -54,9 +54,9 @@ class gap:
 
         carry, _ = auto_conv(carry, convspec, poolspec)
             
-        carry = Reshape((32, 32, 2048))(carry)
+        carry = Reshape((dynsize, dynsize, 2048))(carry)
         featuremaps = carry
-        carry = AveragePooling2D((32, 32))(carry)
+        carry = AveragePooling2D((dynsize, dynsize))(carry)
         carry = Reshape((2048,))(carry)
         # carry = Dense(2048)(carry)
         # carry = BatchNormalization()(carry)
@@ -74,7 +74,8 @@ class gap:
         model = Model(input, carry)
 
         self.model = model
-        self.saliency_model = Model(input, [featuremaps, avgweights])
+        self.core = model
+        self.saliency_model = Model(input, [carry, featuremaps])
 
     def summary(self):
         self.model.summary()
@@ -97,8 +98,8 @@ class gap:
 
     def compile(self):
         self.core = self.model
-        # self.model = mgpu(self.model)
+        self.model = mgpu(self.model)
         self.model = self.model
-        opt = Adam(0.001)
+        opt = Adam(0.0001)
         self.model.compile(optimizer=opt, loss='categorical_crossentropy', metrics=['accuracy'])
 

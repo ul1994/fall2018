@@ -49,13 +49,13 @@ def auto_conv(carry, convspec, poolspec):
             carry = MaxPooling2D((2, 2), strides=(2, 2), padding='same')(carry)
     return carry, skips
 
-def auto_unconv(carry, unconvspec, unpoolspec, skips):
+def auto_unconv(carry, unconvspec, unpoolspec, skips=None):
     for lii, layerspec in enumerate(unconvspec):
         if unpoolspec[lii]:
             carry = UpSampling2D()(carry) # simple 2d upsample
         for fii, nFilters in enumerate(layerspec):
             carry = Conv2D(nFilters, (3, 3), padding='same')(carry)
-            if fii == 0:
+            if fii == 0 and skips is not None:
                 saved = skips.pop()
                 carry = Concatenate()([saved, carry]) # skip connections
             carry = BatchNormalization()(carry)

@@ -62,7 +62,7 @@ def load_folder(fname, label, reserve, get_id=strip_sid):
         if sid not in bycases: bycases[sid] = []
         bycases[sid].append(samp)
 
-    print(' [*] %s: %d unique cases' % (label, len(bycases)))
+    print(' [*] %s: %d unique cases (%d total)' % (label, len(bycases), len(imgpaths)))
 
     cachename = '.%s_reserved.json' % label
     if not os.path.isfile(cachename):
@@ -80,14 +80,20 @@ def load_folder(fname, label, reserve, get_id=strip_sid):
     split = TrainTest(label, imgpaths, resnames, get_id=get_id)
     return split
 
-def centercrop(ls, imsize, slack=32, cropspec=None):
+def centercrop(ls, imsize, slack=32, cropspec=None, refs=None):
 
     history = []
     # return [img[pad:imsize+pad, pad:imsize+pad] for img in ls]
     cropped = []
     for imii, img in enumerate(ls):
         native = img.shape[0]
-        assert native == 320
+        try:
+            assert native == 320
+        except:
+            print(img.shape)
+            if refs is not None:
+                print(imii, refs[imii])
+            assert False
         if cropspec is None:
             pad = (native - imsize) // 2
             slack = min(pad, slack) # cant exceed pad
@@ -114,7 +120,7 @@ class Tissue:
         self.train_size = min(len(self.sick.train), len(self.healthy.train))
         self.test_size = min(len(self.sick.test), len(self.healthy.test))
 
-    def gen(self, mode='train', imsize=256, bsize=64, set=None, 
+    def gen(self, mode='train', imsize=256, bsize=64, regionsize=16, set=None, 
         sickonly=False,
         augment=True,
         labels=['masks']
@@ -149,7 +155,7 @@ class Tissue:
                 rotatespec = [[0, 90, 180, 270][randint(0, 3)] for ii in range(len(imgs))]
                 imgs = [rotate(imgs[ii], rotatespec[ii], reshape=False) for ii in range(len(imgs))]
             # TODO: CROPPPING
-            cropspec, imgs = centercrop(imgs, imsize)
+            cropspec, imgs = centercrop(imgs, imsize, refs=refs)
             
 
             imgs = np.array(imgs).reshape((bsize, imsize, imsize, 1))
@@ -160,6 +166,35 @@ class Tissue:
 
             if labels == ['lbls']:
                 yield imgs, lbls
+            elif 'regions' in labels:
+                regions = []
+                for bii, pth in enumerate(paths):
+                    canvas = np.zeros((320, 320, 2), dtype=int)
+                    if np.argmax(lbls[bii]) == 1: #for sick
+                        pth = pth.replace('.npy', '.jpg')
+                        msk = cv2.imread(pth, 0).astype(np.float32)/255
+                        canvas[:, :, 1] = msk
+                        canvas[:, :, 0] = 1 - msk
+                    else:
+                        canvas[:, :, 0] = 1
+                    regions.append(canvas.astype(np.float32))
+                if augment:
+                    regions = [rotate(regions[ii], rotatespec[ii], reshape=False) for ii in range(len(regions))]
+                _, regions = centercrop(regions, imsize, cropspec=cropspec, refs=refs)
+                # print(len(regions), regions[0].shape)
+                scale = regionsize/imsize
+                regions = [cv2.resize(
+                    img, (0,0), fx=scale, fy=scale, 
+                    interpolation=cv2.INTER_NEAREST) for img in regions]
+                regions = np.array(regions).reshape((bsize, regionsize, regionsize, 2))
+
+                if 'lbls' in labels and 'refs' in labels:
+                    yield imgs, [regions, lbls], refs
+                elif 'lbls' in labels:
+                    yield imgs, [regions, lbls]
+                else:
+                    yield imgs, regions
+                    
             elif 'masks' in labels:
                 masks = []
                 for bii, pth in enumerate(paths):
@@ -168,10 +203,10 @@ class Tissue:
                         msk = cv2.imread(pth, 0).astype(np.float32)/255
                         masks.append(msk)
                     else:
-                        masks.append(np.zeros((384, 384)))
+                        masks.append(np.zeros((320, 320)))
                 if augment:
                     masks = [rotate(masks[ii], rotatespec[ii], reshape=False) for ii in range(len(masks))]
-                _, masks = centercrop(masks, imsize, cropspec=cropspec)
+                _, masks = centercrop(masks, imsize, cropspec=cropspec, refs=refs)
                 # print(len(masks), masks[0].shape)
                 masks = np.array(masks).reshape((bsize, imsize, imsize, 1))
                 if labels == ['masks']:
@@ -180,3 +215,107 @@ class Tissue:
                     yield imgs, masks, lbls, refs
                 elif 'lbls' in labels:
                     yield imgs, masks, lbls
+
+
+def sample_noise(mask, ratio=5, external=50):
+    yy, xx = np.nonzero(mask)
+    hh = np.max(yy) - np.min(yy)
+    ww = np.max(xx) - np.min(xx)
+    samps = int(max(np.sqrt(hh * ww) // ratio, 1))
+    # print('Samples', samps)
+    canvas = np.zeros(mask.shape)
+    for ii in range(samps):
+        ind = randint(0, len(yy) - 1)
+        yi, xi = yy[ind], xx[ind]
+        canvas[yi, xi] = 1
+
+    for ii in range(external):
+        rx, ry = randint(0, mask.shape[1] - 1), randint(0, mask.shape[0] - 1)
+        canvas[ry, rx] = 1
+
+    canvas = blur(canvas, 3)
+    canvas /= np.max(canvas)
+    return canvas
+
+class Contours(Tissue):
+    cpath = '%s/contours/centered' % DATAPATH
+    hpath = '%s/contours/healthy' % DATAPATH
+    # spath = '%s/contours/sick'  % DATAPATH # sick contours not used
+
+    def __init__(self, reserve=512):
+        sequence_id = lambda fname: '_'.join(fname.split('_')[:-1])
+        
+        self.sick = load_folder(self.cpath, 'sick', reserve, get_id=sequence_id)
+        self.healthy = load_folder(self.hpath, 'healthy', reserve, get_id=sequence_id)
+
+        self.sick.summary()
+        self.healthy.summary()
+
+        self.train_size = min(len(self.sick.train), len(self.healthy.train))
+        self.test_size = min(len(self.sick.test), len(self.healthy.test))
+
+    def gen(self, mode='train', imsize=512, bsize=32, 
+        sickonly=False,
+        augment=True,
+        labels=['noise', 'masks', 'refs']
+    ):
+        bhalf = bsize//2
+        while True:
+            sick_imgs = self.sick.next(bhalf, mode=mode)
+            if sickonly:
+                healthy_imgs = self.sick.next(bhalf, mode=mode)
+            else:
+                healthy_imgs = self.healthy.next(bhalf, mode=mode)
+
+            imgs = healthy_imgs+sick_imgs
+
+            # batch = lkist(zip(imgs, lbls))
+            batch = imgs
+            shuffle(batch)
+            # imgs, lbls = zip(*batch)
+            imgs = batch
+
+            refs = imgs
+            imgs = [np.load(path) for path in refs]
+            imgs = [img.astype(np.float32) for img in imgs]
+
+            # rotate augment
+            # if augment:
+            #     rotatespec = [[0, 90, 180, 270][randint(0, 3)] for ii in range(len(imgs))]
+            #     imgs = [rotate(imgs[ii], rotatespec[ii], reshape=False) for ii in range(len(imgs))]
+            # TODO: CROPPPING
+            # cropspec, imgs = centercrop(imgs, imsize, refs=refs)
+
+            imgs = np.array(imgs).reshape((bsize, imsize, imsize, 1))
+            imgs /= 255**2 # uint16 range
+
+            masks = []
+            noise = []
+            for bii, pth in enumerate(refs):
+                if self.cpath in refs[bii]: # is sick and has mask
+                    pth = pth.replace('.npy', '.jpg')
+                    msk = cv2.imread(pth, 0).astype(np.float32)/255
+                    masks.append(msk)
+                    # noiseim = np.zeros(imgs[0].shape[:2])
+                    noiseim = sample_noise(msk)
+                    assert noiseim.shape == imgs[0].shape[:2]
+                    noise.append(noiseim)
+                else:
+                    blank = np.zeros(imgs[0].shape[:2])
+                    assert blank.shape == imgs[0].shape[:2]
+                    masks.append(blank)
+                    noise.append(blank)
+                # if augment:
+                #     masks = [rotate(masks[ii], rotatespec[ii], reshape=False) for ii in range(len(masks))]
+                # _, masks = centercrop(masks, imsize, cropspec=cropspec, refs=refs)
+                # print(len(masks), masks[0].shape)
+            masks = np.array(masks).reshape((bsize, imsize, imsize, 1))
+            noise = np.array(noise).reshape((bsize, imsize, imsize, 1))
+            if labels == ['masks']:
+                yield imgs, masks
+            if 'refs' in labels and 'masks' in labels and 'noise' in labels:
+                yield imgs, noise, masks, refs
+            elif 'refs' in labels and 'masks' in labels:
+                yield imgs, masks, refs
+            else:
+                yield imgs, masks
