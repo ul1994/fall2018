@@ -23,16 +23,16 @@ h_conv = [
     [64, 128],
     [256, 256, 256], # 256
     [256, 256, 256], # 128
-    [256, 256, 256], # 64
-    [512, 512, 512],# 32
-    [512, 512, 512],# 16
-    [512, 512, 512],# 8
+    [256, 256, 256, 256], # 64
+    [512, 512, 512, 512],# 32
+    [512, 512, 512, 512],# 16
+    [512, 512, 512, 512],# 8
 ] # 4
 h_pool = [True] * 7
 
 h_unconv = [ # 4
-    [512//2, 512, 512, 512],# 
-    [512//2, 512, 512, 512],# 
+    [512//2, 512, 512, 512],#
+    [512//2, 512, 512, 512],#
     [512//2, 512, 512, 512],# 16
     [256//2, 256, 256, 256], # 128
     [256//2, 256, 256, 256], # 64
@@ -42,23 +42,14 @@ h_unconv = [ # 4
 h_unpool = [True] * 7
 
 
-filter_spec = [
-    (512, 7),
-    (128, 7),
-    (128, 7),
-    (128, 7),
-    (128, 7),
-    (128, 1),
-    (1, 1),
-]
-
 class hcoder:
-    name = 'hcoder'
+    name = 'hcoder_v1'
     def __init__(self, imsize=512, hsize=64,
-        convspec=h_conv, 
+        convspec=h_conv,
         poolspec=h_pool,
         unconvspec=h_unconv,
-        unpoolspec=h_unpool):
+        unpoolspec=h_unpool,
+        nlabels=3):
 
         print(' [!] Conv Spec:')
         dynsize = imsize
@@ -74,7 +65,7 @@ class hcoder:
             insize = dynout
             dynout *= 2
             print('  |  %d => %d: %s' % (insize, dynout, layerspec))
-        
+
         iminput = Input(shape=(imsize, imsize, 1))
         # hinput = Input(shape=(hsize, hsize, 1))
         carry = iminput
@@ -83,16 +74,18 @@ class hcoder:
         carry, skips = auto_conv(carry, convspec, poolspec)
         assert len(skips) == len(unconvspec)
 
+        lastfilters = convspec[-1][-1]
+        carry = Reshape((dynsize, dynsize, lastfilters))(carry)
+        carry = AveragePooling2D((dynsize, dynsize))(carry)
+        carry = Reshape((lastfilters,))(carry)
         carry = Dropout(0.5)(carry)
-
-        carry = auto_unconv(carry, unconvspec, unpoolspec, None)
-        carry = Conv2D(1, (3, 3), padding='same')(carry)
-        carry = Activation('sigmoid')(carry)
-
-        assert carry.get_shape().as_list() == [None, imsize, imsize, 1]
+        carry = Dense(nlabels)(carry)
+        carry = Activation('softmax', name='yhat')(carry)
 
         model = Model(iminput, carry)
+
         self.model = model
+        self.core = model
 
     def summary(self):
         self.model.summary()
@@ -110,11 +103,12 @@ class hcoder:
             self.core.load_weights('checkpoints/%s.h5' % self.name)
 
     def compile(self):
-        def mse(y_true, y_pred):
-            return K.mean(K.square(y_pred - y_true), axis=-1)
-        
-        self.core = self.model
+        # def mse(y_true, y_pred):
+        #     return K.mean(K.square(y_pred - y_true), axis=-1)
+
         self.model = mgpu(self.model)
         opt = Adam(0.001)
-        self.model.compile(optimizer=opt, loss=mse)
+        self.model.compile(optimizer=opt, loss={
+            'yhat': 'categorical_crossentropy',
+        }, metrics=['accuracy'])
 

@@ -83,8 +83,8 @@ def spread_contour_batch(batch, maxplots=5):
     plt.close()
 
 def spread_contours(name, maxplots=7):
-    hasmask = ['centered', 'sick']
-    labels = ['centered', 'sick', 'healthy']
+    hasmask = ['centered']
+    labels = ['centered', 'healthy']
     for lbl in labels:
         found = glob('%s%s/%s*.npy' % (CONTPATH, lbl, name))
         found = sorted(found, key=lambda fname: fname.split('_')[-1])

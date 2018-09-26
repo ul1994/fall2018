@@ -110,7 +110,7 @@ def centercrop(ls, imsize, slack=32, cropspec=None, refs=None):
 class Tissue:
     def __init__(self, reserve=512):
         direct_id = lambda fname: fname.replace('.npy', '')
-        
+
         self.sick = load_folder(CPATH, 'tissue_sick', reserve, get_id=direct_id)
         self.healthy = load_folder(HPATH, 'tissue_healthy', reserve)
 
@@ -120,7 +120,7 @@ class Tissue:
         self.train_size = min(len(self.sick.train), len(self.healthy.train))
         self.test_size = min(len(self.sick.test), len(self.healthy.test))
 
-    def gen(self, mode='train', imsize=256, bsize=64, regionsize=16, set=None, 
+    def gen(self, mode='train', imsize=256, bsize=64, regionsize=16, set=None,
         sickonly=False,
         augment=True,
         labels=['masks']
@@ -156,7 +156,7 @@ class Tissue:
                 imgs = [rotate(imgs[ii], rotatespec[ii], reshape=False) for ii in range(len(imgs))]
             # TODO: CROPPPING
             cropspec, imgs = centercrop(imgs, imsize, refs=refs)
-            
+
 
             imgs = np.array(imgs).reshape((bsize, imsize, imsize, 1))
 
@@ -184,7 +184,7 @@ class Tissue:
                 # print(len(regions), regions[0].shape)
                 scale = regionsize/imsize
                 regions = [cv2.resize(
-                    img, (0,0), fx=scale, fy=scale, 
+                    img, (0,0), fx=scale, fy=scale,
                     interpolation=cv2.INTER_NEAREST) for img in regions]
                 regions = np.array(regions).reshape((bsize, regionsize, regionsize, 2))
 
@@ -194,7 +194,7 @@ class Tissue:
                     yield imgs, [regions, lbls]
                 else:
                     yield imgs, regions
-                    
+
             elif 'masks' in labels:
                 masks = []
                 for bii, pth in enumerate(paths):
@@ -243,10 +243,19 @@ class Contours(Tissue):
     # spath = '%s/contours/sick'  % DATAPATH # sick contours not used
 
     def __init__(self, reserve=512):
-        sequence_id = lambda fname: '_'.join(fname.split('_')[:-1])
-        
-        self.sick = load_folder(self.cpath, 'sick', reserve, get_id=sequence_id)
-        self.healthy = load_folder(self.hpath, 'healthy', reserve, get_id=sequence_id)
+        get_coord_id = lambda fname: '_'.join(fname.split('_')[:-1])
+        get_indexed_id = lambda fname: '_'.join(fname.split('_')[:-2])
+
+        # with open('.cbis_detailed.json') as fl:
+        #     self.metadata = json.load(fl)
+        #     self.lbls_lookup = {}
+        #     for ent in self.metadata:
+        #         for det in ent['details']:
+        #             # maskid = original folder where mask was found
+        #             self.lbls_lookup[det['maskid']] = det['type']
+
+        self.sick = load_folder(self.cpath, 'sick', reserve, get_id=get_indexed_id)
+        self.healthy = load_folder(self.hpath, 'healthy', reserve, get_id=get_coord_id)
 
         self.sick.summary()
         self.healthy.summary()
@@ -254,30 +263,38 @@ class Contours(Tissue):
         self.train_size = min(len(self.sick.train), len(self.healthy.train))
         self.test_size = min(len(self.sick.test), len(self.healthy.test))
 
-    def gen(self, mode='train', imsize=512, bsize=32, 
+    def gen(self, mode='train', imsize=512, bsize=32,
+        native=1024,
         sickonly=False,
         augment=True,
         labels=['noise', 'masks', 'refs']
     ):
+        imscale = imsize / native
         bhalf = bsize//2
         while True:
+            lbls = np.zeros((bsize, 2))
             sick_imgs = self.sick.next(bhalf, mode=mode)
             if sickonly:
                 healthy_imgs = self.sick.next(bhalf, mode=mode)
+                lbls[:, 1] = 1
             else:
                 healthy_imgs = self.healthy.next(bhalf, mode=mode)
+                lbls[:len(healthy_imgs), 0] = 1
+                lbls[len(healthy_imgs):, 1] = 1
+
 
             imgs = healthy_imgs+sick_imgs
 
-            # batch = lkist(zip(imgs, lbls))
-            batch = imgs
+            batch = list(zip(imgs, lbls))
             shuffle(batch)
-            # imgs, lbls = zip(*batch)
-            imgs = batch
+            imgs, lbls = zip(*batch)
+            lbls = np.array(list(lbls))
 
             refs = imgs
             imgs = [np.load(path) for path in refs]
             imgs = [img.astype(np.float32) for img in imgs]
+
+            imgs = [cv2.resize(img, (0,0), fx=imscale, fy=imscale) for img in imgs]
 
             # rotate augment
             # if augment:
@@ -295,6 +312,7 @@ class Contours(Tissue):
                 if self.cpath in refs[bii]: # is sick and has mask
                     pth = pth.replace('.npy', '.jpg')
                     msk = cv2.imread(pth, 0).astype(np.float32)/255
+                    msk = cv2.resize(msk, (0,0), fx=imscale, fy=imscale)
                     masks.append(msk)
                     # noiseim = np.zeros(imgs[0].shape[:2])
                     noiseim = sample_noise(msk)
@@ -311,11 +329,10 @@ class Contours(Tissue):
                 # print(len(masks), masks[0].shape)
             masks = np.array(masks).reshape((bsize, imsize, imsize, 1))
             noise = np.array(noise).reshape((bsize, imsize, imsize, 1))
-            if labels == ['masks']:
-                yield imgs, masks
-            if 'refs' in labels and 'masks' in labels and 'noise' in labels:
-                yield imgs, noise, masks, refs
-            elif 'refs' in labels and 'masks' in labels:
-                yield imgs, masks, refs
+
+            if 'masks' in labels and 'refs' in labels:
+                yield imgs, masks, lbls, refs
+            elif 'masks' in labels:
+                yield imgs, masks, lbls
             else:
-                yield imgs, masks
+                yield imgs, lbls

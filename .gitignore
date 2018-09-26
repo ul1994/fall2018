@@ -12,3 +12,6 @@ __pycache__
 *.avi
 *.png
 *.jpg
+*Peripheral*
+html
+BuildContourRefs.py

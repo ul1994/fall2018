@@ -83,6 +83,7 @@ class gap_mask:
 
         model = Model(input, [rpn, yhat])
         self.model = model
+        self.core = model
         # self.saliency_model = Model(input, [featuremaps, avgweights])
 
     def summary(self):
